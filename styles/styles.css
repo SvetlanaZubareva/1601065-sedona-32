@@ -1,17 +1,386 @@
-.welcome {
-    background-image: url("image/index-background");
-    background-color: cadetblue;
-    color: #ffff;
+@font-face {
+    font-family:"PT Sans";
+    font-style:normal;
+    font-weight:400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display:swap;
 }
 
-.newsletter {
-    background-image: url("image/background");
-    background-color: #ffff;
-    color: black;
+@font-face {
+    font-family:"PT Sans";
+    font-style:normal;
+    font-weight:700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display:swap;
+}
+
+body {
+    font-family:"PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.welcome {
+    background-image: url("../img/index-background.jpg");
+    background-color:cadetblue;
+    color: #ffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    weight:1200px;
+    height:485px;
+}
+
+.newsletter-1{
+    background-image: url("../img/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 411px;
 }
 
 .hotel-parameters {
-    background-image: url("image/catalog-background");
+    background-image: url("../img/catalog-background.jpg");
     background-color:cadetblue;
     color:#ffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 408px;
+}
+
+.page-header {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navigation-link {
+    font-size: 20px;
+    line-height: 26px;
+    color: inherit;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: left; 
+}
+.benefits {
+    background-color: #83B3D3; 
+}
+
+.advanteges-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;   
+}
+
+.advanteges-numbering {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;   
+
+}
+
+.advanteges-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;   
+}
+
+.preferences-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;   
+}
+
+.preferences-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+.services-interest {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000; 
+}
+
+.services-more {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000; 
+} 
+
+.search-button {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff; 
+    background-color: #756257;
+}
+
+.subscription-to-newsletter {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;  
+}
+
+.newsletter-description {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;   
+}
+
+.subscribe-button {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;  
+    background-color: #83B3D3; 
+}
+
+
+
+
+.footer-social {
+    font-size: 40px;
+    line-height: 40px;
+    color: inherit;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.butten-cocial {
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.inner-header-title {
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;    
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;   
+}
+
+.catalog-filter-title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;   
+}
+
+.to-apply {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #83B3D3;   
+}
+
+.throw-off {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    background-color: cadetblue;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;  
+}
+
+.select-control {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;   
+}
+
+.product-card-link {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+    text-align: left;
+    color: #000000; 
+    text-decoration: none; 
+}
+
+.product-card-1 {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;   
+}
+
+.product-card-price {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;  
+}
+
+.product-card-button .more-details {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.product-card-button .favorites {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff; 
+    text-decoration: none;  
+}
+
+.product-rating {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333; 
+}
+
+.pagination-show-more {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+
+
+.selected-page {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff; 
+    text-decoration: none;   
+}
+
+.pagination-link {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff; 
+    text-decoration: none;  
+}
+
+.numbering {
+    background-color: #83B3D3;
+}
+
+.numbering-1 {
+    background-color: #E5E5E5;
+    }
+
+.selected-page {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}  
+
+.number {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    color: #333333; 
+}
+
+.subscription {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;  
+}
+
+.description {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;  
+}  
+
+
+.benefits-2 {
+    background-color: rgba(131, 179, 211, 0.12); 
+    color: #000000;
+}
+
+
+.benefits-3 {
+   background-color:rgba(131, 179, 211, 0.2);
+    color: #000000;
 }
