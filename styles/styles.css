@@ -1,0 +1,17 @@
+.welcome {
+    background-image: url("image/index-background");
+    background-color: cadetblue;
+    color: #ffff;
+}
+
+.newsletter {
+    background-image: url("image/background");
+    background-color: #ffff;
+    color: black;
+}
+
+.hotel-parameters {
+    background-image: url("image/catalog-background");
+    background-color:cadetblue;
+    color:#ffff;
+}
