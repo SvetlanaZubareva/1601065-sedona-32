@@ -40,7 +40,8 @@ body {
     height: 411px;
 }
 
-.hotel-parameters {
+
+.hotel-parameters{
     background-image: url("../img/catalog-background.jpg");
     background-color:cadetblue;
     color:#ffff;
