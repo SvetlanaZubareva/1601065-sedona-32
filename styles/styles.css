@@ -58,6 +58,11 @@ body {
 }
 
 
+.newsletter {
+    width: 1200px;
+    height: 411px;
+}
+
 .hotel-parameters{
     background-image: url("../img/catalog-background.jpg");
     background-color:cadetblue;
@@ -67,6 +72,23 @@ body {
     width: 1200px;
     height: 408px;
 }
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    width: 1056px;
+}
+
+.product-card {
+    justify-content: space-between; 
+}
+.catalog-products {
+    display: flex;
+    justify-content: space-between;
+    width: 1056px;
+
+}
+
 
 .page-header {
     color: #000000;
@@ -406,9 +428,14 @@ body {
     text-align: center;
     color: #FFFFFF; 
     background-color: #83B3D3;
-
+    width: 625px;
 }
 
+.selection-and-page {
+    display: flex;
+    justify-content: space-between;
+    width: 1056px;
+}
 
 
 .selected-page {

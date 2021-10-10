@@ -44,15 +44,16 @@
         </nav>
      </header>
 <main class="main-inner">
-  <div class="hotel-parameters">
-    <section class="inner-header">
-      <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      <img src="img/svg/house-1.png" width="12" height="12" alt="Домик">
-      <p class="subtitle">Гостиницы</p>
-    </section>
-    <section class="catalog-products">
-        <h2 class="visually-hidden">Список услуг с фильтрами</h2>
-        <fieldset class="catalog-filter-group">
+    <div class="page-container">
+      <div class="hotel-parameters">
+        <section class="inner-header">
+          <h1 class="inner-header-title">Гостиницы Седоны</h1>
+          <img src="img/svg/house-1.png" width="12" height="12" alt="Домик">
+          <p class="subtitle">Гостиницы</p>
+        </section>
+        <section class="catalog-products">
+          <h2 class="visually-hidden">Список услуг с фильтрами</h2>
+          <fieldset class="catalog-filter-group">
              <legend class="catalog-filter-title">Инфраструктура</legend>
              <ul class="catalog-filter-list">
                  <li class="catalog-filter-item">
@@ -128,28 +129,30 @@
    </section>
   </div>
    <section class="product-rating">
-     <p class="title">Найдено гостиниц: 38</p>
-     <form class="sorting-type">
-        <label class="visually-hidden" for="sorting">Сортировка</label>
-        <select class="select-control" id="sorting" name="sorting">
-          <option value="popular">Сначала популярное</option>
-          <option value="cheap">Сначала дешёвое</option>
-          <option value="expensive">Сначала дорогое</option>
-        </select>
-        <button class="visually-hidden" type="submit">Отсортировать продукты</button>
-     </form>
-     <a href="#" class="button">
-        <img class="show-cards" src="img/svg/mode-tile.svg" width="16" height="14" alt="Кнопка показать карточки">
-        <span class="visually-hidden">Показать карточки</span>
-     </a>
-     <a href="#" class="button">
-       <img class="slideshow-mode" src="img/svg/mode-slideshow.svg" width="16" height="14"  alt="Кнопка слайд-шоу">
-      <span class="visually-hidden">Режим слайд-шоу</span>
-   </a>
-     <a href="#" class="button button-light">
-       <img class="mode-list" src="img/svg/mode-list.svg" width="16" height="14" alt="Кнопка показать список">
-        <span class="visually-hidden"> Показать список</span>
-     </a>
+     <div class="filter">
+        <p class="title">Найдено гостиниц: 38</p>
+        <form class="sorting-type">
+          <label class="visually-hidden" for="sorting">Сортировка</label>
+          <select class="select-control" id="sorting" name="sorting">
+            <option value="popular">Сначала популярное</option>
+            <option value="cheap">Сначала дешёвое</option>
+            <option value="expensive">Сначала дорогое</option>
+          </select>
+          <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+        </form>
+        <a href="#" class="button">
+          <img class="show-cards" src="img/svg/mode-tile.svg" width="16" height="14" alt="Кнопка показать карточки">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a href="#" class="button">
+          <img class="slideshow-mode" src="img/svg/mode-slideshow.svg" width="16" height="14"  alt="Кнопка слайд-шоу">
+          <span class="visually-hidden">Режим слайд-шоу</span>
+        </a>
+        <a href="#" class="button button-light">
+          <img class="mode-list" src="img/svg/mode-list.svg" width="16" height="14" alt="Кнопка показать список">
+          <span class="visually-hidden"> Показать список</span>
+         </a>
+    </div>
      <ul class="product-list">
        <li class="product-card"> 
           <a class="product-card-link" href="product.html">
@@ -160,7 +163,7 @@
           <b class="product-card-price">от 4000 ₽</b>
           <div class="product-card-button">
               <a href="#" class="product-card-button more-details">Подробнее</a>
-          </div> 
+          
           <a href="#" class="product-card-button-1 favorites">В избранное</a>
           <img class="product-star" src="img/svg/stars-5.svg" width="91" height="17" alt="Четыре звезды">
           <p class="product-rating">Рейтинг: 8,5</p>
@@ -204,6 +207,7 @@
       </li>
    </ul>
     <button class="button pagination-show-more" type="button">Загрузить еще</button>
+    <div class="selection-and-page">
       <ul class="pagination">
          <li class="pagination-item">
            <a class="pagination-link pagination-prev pagination-disabled">
@@ -254,6 +258,7 @@
           </select>
         <button class="visually-hidden" type="submit">Отсортировать продукты</button>
      </form>
+    </div>
   </section>
   <section class="newsletter">
     <h2 class="subscription">Подпишитесь на рассылку</h2>
@@ -263,38 +268,41 @@
         <button class="button subscribe-button" type="submit">Подписаться</button>
     </form>
   </section>
+  </div>
 </main>
 <footer class="page-footer">
-  <section class="footer-social">
-    <ul class="footer-social-list">
-        <li class="footer-social-item">
-            <a class="butten-cocial" href="#">
+    <div class="page-footer-container">
+        <section class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="butten-cocial" href="#">
               <img class="twitter" src="img/svg/twitter.svg" width="18" height="15" alt="Твиттер">
                 <span class="visually-hidden">Twitter</span>
-            </a>
-        </li>
-        <li class="footer-social-item">
-            <a class="butten-cocial" href="#">
-              <img class="facebook" src="img/svg/facebook.svg" width="10" height="18" alt="Фейсбук">
+              </a>
+            </li>
+            <li class="footer-social-item">
+                <a class="butten-cocial" href="#">
+                <img class="facebook" src="img/svg/facebook.svg" width="10" height="18" alt="Фейсбук">
                 <span class="visually-hidden">Facebook</span>
-            </a>
-        </li>
-        <li class="footer-social-item">
-            <a class="butten-cocial" href="#">
-              <img class="youTube" src="img/svg/youtube.svg" width="21" height="16" alt="Ютюб">
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a class="butten-cocial" href="#">
+                <img class="youTube" src="img/svg/youtube.svg" width="21" height="16" alt="Ютюб">
                 <span class="visually-hidden">YouTube</span>
-            </a>
-         </li>
-    </ul>
-</section>
-  <section class="footer-contacts">
-      <h2 class="contacts">+7 (812) 812-12-12</h2>
-  </section>
-  <section class="link">
-      <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-          <img src="img/svg/logo-html.svg" width="115" height="33" alt="логотип .html academy">
-      </a>
-  </section>
+                </a>
+            </li>
+        </ul>
+      </section>
+      <section class="footer-contacts">
+          <h2 class="contacts">+7 (812) 812-12-12</h2>
+      </section>
+      <section class="link">
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+              <img src="img/svg/logo-html.svg" width="115" height="33" alt="логотип .html academy">
+          </a>
+      </section>
+  </div>
 </footer>
 </body>
 </html>
