@@ -16,6 +16,7 @@
 
 html {
     height: 100%;
+    background-color: #E5E5E5;
 }
 
 body {
@@ -28,6 +29,8 @@ body {
     line-height: 21px;
     color: #000000;
     background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .main-container {
@@ -47,6 +50,10 @@ body {
 .welcome-1 {
     display: block;
     margin: 0 auto;
+}
+
+.welcome-2 {
+    
 }
 
 .newsletter-1{
@@ -99,13 +106,13 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
   }
 
   
 .navigation-list {
     margin: 0;
     padding: 0;
-    width: 700px;
 }
 
 .navigation-link {
@@ -121,7 +128,7 @@ body {
 
 .navigation-user {
     max-width: 160px;
-    margin-left: auto;
+   /* margin-left: auto;*/
 }
 
 .page-container {
