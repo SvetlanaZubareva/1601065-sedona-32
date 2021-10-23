@@ -151,9 +151,8 @@ body {
 }
 
 .navigation-item {
-  margin-right: 33px;
+  margin-left: 33px;
 }
-
 
 .navigation-link:nth-child(1n) {
   margin-left: 0;
@@ -174,7 +173,6 @@ body {
 .heading {
   display: block;
   width: 1200px;
-  height: 282px;
 }
 
 .title-1 {
@@ -184,7 +182,12 @@ body {
   text-align: center;
   margin-top: 63px;
   margin-bottom: 23px;
+  margin-left: 240px;
+  margin-right: 240px;
+  width: 720px;
+  height: 80px;
 }
+
 
 .subtitle-1 {
   font-size: 22px;
@@ -193,6 +196,8 @@ body {
   text-align: center;
   margin-top: 23px;
   margin-bottom: 79px;
+  margin-right: 240px;
+  margin-left: 240px;
 }
 
 .benefits {
@@ -205,9 +210,10 @@ body {
 
 .benefits-0 {
   display: block;
-  width: 1200px;
   text-align: center;
-  padding-top: 98px;
+  margin-top: 98px;
+  margin-right: 75px;
+  margin-left: 75px;
 }
 
 .advanteges-title {
@@ -216,6 +222,8 @@ body {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-list {
@@ -244,9 +252,10 @@ body {
   flex-wrap: wrap;
   text-align: center;
   width: 400px;
-  margin: 0 auto;
-  padding-top: 90px;
-  padding-bottom: 79px;
+  margin: 0;
+  padding: 0;
+  padding-top: 85px;
+  padding-bottom: 68px;
 }
 
 .item-1 {
@@ -268,6 +277,11 @@ body {
   font-weight: 400;
   text-align: center;
   color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 26px;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 0;
 }
 
 .advanteges-description {
@@ -284,6 +298,9 @@ body {
   font-weight: 700;
   text-align: center;
   color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 .preferences-description {
@@ -719,8 +736,6 @@ body {
 .benefits-3 {
   display: block;
   text-align: center;
-  padding-top: 98px;
-  padding-bottom: 77px;
   background-color: rgba(131, 179, 211, 0.2);
   color: #000000;
 }
@@ -874,3 +889,38 @@ body {
   margin-right: 531px;
 }
 
+.img-svg {
+  margin-bottom: 23px;
+}
+
+.advanteges-title-2 {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.advanteges-title-3 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding-top: 98px;
+}
+
+
+.advanteges-numbering-2 {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+
+.advanteges-numbering-3 {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.advanteges-description-2 {
+  margin: 0;
+}
+
+.advanteges-description-3 {
+  margin: 0;
+  padding-bottom: 77px;
+}
