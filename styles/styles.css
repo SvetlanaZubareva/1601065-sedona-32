@@ -414,6 +414,7 @@ body {
   line-height: 26px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
   padding: 20px;
@@ -506,6 +507,7 @@ body {
   line-height: 21px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
   padding-top: 10px;
@@ -600,13 +602,15 @@ body {
   line-height: 21px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
   background-color: #756257;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
+  margin-right: 8px;
+  border-radius: 4px;
+  width: 160px;
 }
 
 
@@ -615,7 +619,8 @@ body {
 }
 
 .product-card-button {
-  margin-top: 31px;
+  display: flex;
+  text-align: center;
 }
 
 
@@ -627,12 +632,13 @@ body {
   line-height: 21px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
+  border-radius: 4px;
+  width: 160px;
 }
 
 .favorites-1 {
@@ -640,13 +646,14 @@ body {
   line-height: 21px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
+  width: 160px;
   background-color: #7db54f;
+  border-radius: 4px;
 }
 
 .product-rating {
@@ -661,11 +668,11 @@ body {
   background-color: #f2f2f2;
   padding-top: 9px;
   padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
+  width: 160px;
   margin: 0;
   border-radius: 4px;
   margin-bottom: 64px;
+  text-transform: uppercase;
 }
 
 
@@ -927,6 +934,7 @@ body {
 .product-card-price-1 {
   display: flex;
   margin-top: 1px;
+  padding-bottom: 31px;
 }
 
 .card-link {
