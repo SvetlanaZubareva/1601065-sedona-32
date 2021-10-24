@@ -80,8 +80,10 @@ body {
 .newsletter {
   display: block;
   margin: 0;
-  padding: 0;
-  margin-top: 89px;
+  padding-top: 89px;
+  padding-bottom: 200px;
+  padding-left: 200px;
+  padding-right: 138px;
 }
 
 
@@ -100,18 +102,20 @@ body {
   width: 1056px;
   margin: 0;
   padding: 0;
-  margin-top: 50px;
-  margin-left: 71px;
+  padding-top: 50px;
+  padding-left: 71px;
+  padding-right: 72px;
+  padding-bottom: 76px;
 }
 
 .catalog-products {
   display: flex;
   justify-content: space-between;
   width: 1056px;
-  margin-top: 45px;
-  margin-left: 71px;
-  margin-right: 72px;
-  margin-bottom: 83px;
+  margin: 0;
+  padding-left: 71px;
+  padding-right: 72px;
+  padding-bottom: 83px;
 }
 
 
@@ -204,9 +208,8 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  width: 720px;
   margin: 0;
-  margin-bottom: 23px;
+  padding-bottom: 23px;
 }
 
 
@@ -273,7 +276,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 85px;
+  padding-top: 91px;
   padding-bottom: 68px;
   padding-left: 75px;
   padding-right: 75px;
@@ -286,7 +289,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 85px;
+  padding-top: 91px;
   padding-bottom: 68px;
   padding-left: 75px;
   padding-right: 75px;
@@ -337,6 +340,9 @@ body {
 }
 
 .services {
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
   padding-top: 91px;
   padding-bottom: 108px;
   padding-left: 240px;
@@ -371,11 +377,13 @@ body {
   color: #ffffff;
   background-color: #756257;
   text-decoration: none;
+  text-transform: uppercase;
   padding-top: 13px;
   padding-bottom: 17px;
   padding-left: 100px;
   padding-right: 100px;
   border-radius: 10px;
+  width: 575px;
 }
 
 
@@ -388,7 +396,7 @@ body {
   color: #ffffff;
   display: block;
   margin: 0 auto;
-  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .newsletter-description {
@@ -426,6 +434,7 @@ body {
   width: 100%;
   padding: 20px;
   border: 0;
+  border-radius: 10px 0px 0px 10px;
 }
 
 
@@ -462,11 +471,14 @@ body {
   font-weight: 700;
   text-align: left;
   color: #ffffff;
-  padding-top: 35px;
   margin: 0;
   padding: 0;
+}
+
+.inner-header {
   padding-top: 35px;
   padding-left: 71px;
+  padding-bottom: 52px;
 }
 
 .subtitle {
@@ -477,6 +489,7 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 0;
+  padding-top: 5px;
 }
 
 .catalog-filter-title {
@@ -485,6 +498,7 @@ body {
   font-weight: 700;
   text-align: left;
   color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .to-apply {
@@ -509,10 +523,8 @@ body {
   text-align: center;
   color: #ffffff;
   padding-top: 0;
-  padding-bottom: 0;
   padding-left: 30px;
   padding-right: 30px;
-  margin-bottom: 20px;
   background-color: transparent;
   border: 0;
 }
@@ -525,7 +537,7 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
-  margin-right: 192px;
+  padding-right: 192px;
 }
 
 .select-control {
@@ -535,8 +547,6 @@ body {
   color: #333333;
   width: 160px;
   height: 48px;
-  margin-left: 51px;
-  margin-top: 64px;
 }
 
 .select-control-1 {
@@ -565,7 +575,7 @@ body {
 }
 
 .card-1 {
-  margin-right: 78px;
+  padding-right: 78px;
 }
 
 .card-2 {
@@ -573,7 +583,7 @@ body {
 }
 
 .card-3 {
-  margin-right: 52px;
+  padding-right: 52px;
 }
 
 .product-card-price {
@@ -606,9 +616,11 @@ body {
 
 .product-card-button {
   margin-top: 31px;
-  margin-bottom: 30px;
-  margin-right: 8px;
 }
+
+
+
+
 
 .favorites {
   font-size: 16px;
@@ -647,10 +659,13 @@ body {
 
 .product-rating-1 {
   background-color: #f2f2f2;
-  padding-top: 10px;
+  padding-top: 9px;
   padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 0;
+  border-radius: 4px;
+  margin-bottom: 64px;
 }
 
 
@@ -659,6 +674,7 @@ body {
   line-height: 26px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
   width: 625px;
@@ -669,19 +685,32 @@ body {
 
 .pagination {
   display: flex;
-  margin-top: 61px;
-  margin-left: 72px;
+  margin: 0;
+  padding: 0;
 }
 
 .pagination-item {
   list-style-type: none;
+  margin: 0;
   margin-right: 8px;
 }
+
+.pagination-item:nth-child(1) {
+  margin-right: 0;
+}
+
+.pagination-item:nth-child(7) {
+  margin-right: 0;
+}
+
 
 .selection-and-page {
   display: flex;
   justify-content: space-between;
-  margin-right: 72px;
+  padding-right: 72px;
+  padding-top: 64px;
+  padding-left: 72px;
+  padding-bottom: 89px;
 }
 
 .pagination-link {
@@ -721,6 +750,7 @@ body {
   line-height: 23px;
   font-weight: 400;
   color: #333333;
+  padding-right: 51px;
 }
 
 .subscription {
@@ -729,6 +759,8 @@ body {
   font-weight: 700;
   text-align: center;
   color: #000000;
+  margin: 0;
+  padding-bottom: 15px;
 }
 
 .description {
@@ -737,6 +769,8 @@ body {
   font-weight: 400;
   text-align: center;
   color: #333333;
+  margin: 0;
+  padding-bottom: 26px;
 }
 
 .benefits-2 {
@@ -815,16 +849,16 @@ body {
 
 .icons {
   display: flex;
-  margin-top: 14px;
-  margin-left: 73px;
 }
 
 .icons-1 {
-  margin-right: 11px;
+  padding-right: 11px;
+  padding-top: 8px;
 }
 
 .icons-2 {
-  margin-right: 11px;
+  padding-right: 11px;
+  padding-top: 11px;
 }
 
 .directory-buttons {
@@ -834,11 +868,10 @@ body {
 .product-list {
   display: grid;
   grid-template-columns: 1056px;
-  margin-top: 73px;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-bottom: 61px;
-  padding: 0;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 61px;
+  margin: 0;
   gap: 20px;
 }
 
@@ -870,7 +903,13 @@ body {
 
 .catalog-filter-item {
   list-style-type: none;
+  padding-bottom: 13px;
 }
+
+.catalog-filter-item:nth-child(3) {
+  padding-bottom: 0;
+}
+
 
 .product-card {
   display: flex;
@@ -891,22 +930,25 @@ body {
 }
 
 .card-link {
-  margin-left: 37px;
-  margin-right: 361px;
+  padding-left: 37px;
+  padding-right: 361px;
 }
 
 .product-star {
   margin: 0;
-  margin-bottom: 63px;
-  margin-top: 64px;
+  padding-bottom: 63px;
 }
 
-.product-star:nth-child(1) {
-  margin-top: 0;
-}
 
 .catalog-filter-group {
   border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filter-list {
+  margin: 0;
+  padding: 0; 
 }
 
 .navigation-logo {
@@ -923,13 +965,18 @@ body {
   margin: 0;
   padding-bottom: 25px;
   text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
 }
 
 .advanteges-title-3 {
   margin: 0;
   padding-bottom: 25px;
   text-transform: uppercase;
-  
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700; 
 }
 
 
