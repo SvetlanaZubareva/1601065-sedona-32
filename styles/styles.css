@@ -187,11 +187,10 @@ body {
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
-  margin-top: 17px;
-  margin-bottom: 14px;
-  margin-left: 209px;
-  margin-right: 72px;
-  padding: 0;
+  padding-top: 17px;
+  padding-bottom: 14px;
+  padding-left: 209px;
+  padding-right: 72px;
 }
 
 
@@ -209,7 +208,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
-  padding-bottom: 23px;
+  margin-bottom: 23px;
 }
 
 
@@ -307,7 +306,7 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding-top: 25px;
+  margin-top: 25px;
 }
 
 .advanteges-description {
@@ -317,7 +316,7 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding-top: 26px;
+  margin-top: 26px;
   width: 220px;
 }
 
@@ -328,7 +327,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .preferences-description {
@@ -357,7 +356,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .services-more {
@@ -367,7 +366,7 @@ body {
   text-align: center;
   color: #000000;
   margin: 0;
-  padding-bottom: 73px;
+  margin-bottom: 73px;
 }
 
 .search-button {
@@ -396,7 +395,7 @@ body {
   color: #ffffff;
   display: block;
   margin: 0 auto;
-  padding-top: 15px;
+  margin-bottom: 15px;
 }
 
 .newsletter-description {
@@ -406,7 +405,7 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .subscribe-button {
@@ -499,7 +498,7 @@ body {
   font-weight: 700;
   text-align: left;
   color: #ffffff;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .to-apply {
@@ -539,7 +538,7 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
-  padding-right: 192px;
+  margin-right: 192px;
 }
 
 .select-control {
@@ -577,7 +576,7 @@ body {
 }
 
 .card-1 {
-  padding-right: 78px;
+  margin-right: 78px;
 }
 
 .card-2 {
@@ -757,7 +756,7 @@ body {
   line-height: 23px;
   font-weight: 400;
   color: #333333;
-  padding-right: 51px;
+  margin-right: 51px;
 }
 
 .subscription {
@@ -767,7 +766,7 @@ body {
   text-align: center;
   color: #000000;
   margin: 0;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .description {
@@ -777,7 +776,7 @@ body {
   text-align: center;
   color: #333333;
   margin: 0;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .benefits-2 {
@@ -910,7 +909,7 @@ body {
 
 .catalog-filter-item {
   list-style-type: none;
-  padding-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .catalog-filter-item:nth-child(3) {
@@ -934,7 +933,7 @@ body {
 .product-card-price-1 {
   display: flex;
   margin-top: 1px;
-  padding-bottom: 31px;
+  margin-bottom: 31px;
 }
 
 .card-link {
@@ -944,7 +943,7 @@ body {
 
 .product-star {
   margin: 0;
-  padding-bottom: 63px;
+  margin-bottom: 63px;
 }
 
 
@@ -966,12 +965,12 @@ body {
 }
 
 .img-svg {
-  padding-bottom: 23px;
+  margin-bottom: 23px;
 }
 
 .advanteges-title-2 {
   margin: 0;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 28px;
@@ -980,7 +979,7 @@ body {
 
 .advanteges-title-3 {
   margin: 0;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 28px;
@@ -990,13 +989,13 @@ body {
 
 .advanteges-numbering-2 {
   margin: 0;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 
 .advanteges-numbering-3 {
   margin: 0;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .advanteges-description-2 {
