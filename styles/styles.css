@@ -178,10 +178,6 @@ body {
   margin-left: 0;
 }
 
-
-
-
-
 .navigation-user {
   display: flex;
   flex-wrap: wrap;
@@ -275,10 +271,13 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 91px;
+  padding-top: 184px;
   padding-bottom: 68px;
   padding-left: 75px;
   padding-right: 75px;
+  background-image: url("../img/svg/burger.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
 }
 
 .item-1 {
@@ -288,10 +287,29 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 91px;
+  padding-top: 184px;
   padding-bottom: 68px;
   padding-left: 75px;
   padding-right: 75px;
+  background-image: url("../img/svg/house.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+}
+
+.item-2 {
+  background-color: rgba(131, 179, 211, 0.12);
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 184px;
+  padding-bottom: 68px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background-image: url("../img/svg/present.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
 }
 
 .item:nth-child(1) {
@@ -539,6 +557,7 @@ body {
   margin: 0;
   padding: 0;
   margin-right: 192px;
+  width: 337px;
 }
 
 .select-control {
@@ -610,6 +629,7 @@ body {
   margin-right: 8px;
   border-radius: 4px;
   width: 160px;
+  justify-content: center;
 }
 
 
@@ -886,6 +906,7 @@ body {
   display: flex;
 }
 
+
 .show-cards {
   width: 16px;
   height: 14px;
@@ -1005,3 +1026,25 @@ body {
 .advanteges-description-3 {
   margin: 0;
 }
+
+.button {
+  cursor: pointer;
+}
+
+.button-svg {
+  padding:17px;
+  margin-right: 8px;
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.button-svg:nth-child(3) { 
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 0;
+}
+
+
+
