@@ -473,7 +473,7 @@ body {
   padding-bottom: 61px;
 }
 
-.butten-cocial {
+.button-cocial {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
@@ -535,6 +535,20 @@ body {
   border-radius: 4px;
 }
 
+.to-apply:hover {
+  background-color: #68A2CA;
+}
+
+.to-apply:focus {
+  background: #68A2CA;
+  border: 3px solid #FFFFFF;
+}
+
+.to-apply:active {
+  background-color: #68A2CA;
+  opacity: 0.3;
+}
+
 .throw-off {
   font-size: 18px;
   line-height: 23px;
@@ -546,6 +560,20 @@ body {
   padding-right: 30px;
   background-color: transparent;
   border: 0;
+}
+
+.throw-off:hover {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.throw-off:focus {
+  border: 3px solid #83b3d3;
+}
+
+.throw-off:active {
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 .title {
@@ -584,6 +612,20 @@ body {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+}
+
+.product-card-link:hover {
+  color: #756257;
+}
+
+.product-card-link:focus {
+  color: #756257;
+  border: 3px solid #83b3d3;
+}
+
+.product-card-link:active {
+  color: #756257;
+  opacity: 0.3;
 }
 
 .product-card-1 {
@@ -632,6 +674,20 @@ body {
   justify-content: center;
 }
 
+.more-details:hover {
+  background: #615048;
+}
+
+.more-details:focus {
+  background: #615048;
+   border: 3px solid #83b3d3;
+}
+
+.more-details:active {
+  background: #615048;
+  opacity: 0.3;
+}
+
 
 .product-card-button-1 {
   background-color: #83b3d3;
@@ -641,10 +697,6 @@ body {
   display: flex;
   text-align: center;
 }
-
-
-
-
 
 .favorites {
   font-size: 16px;
@@ -660,6 +712,19 @@ body {
   width: 160px;
 }
 
+.favorites:hover {
+  background: #68a2ca;
+}
+
+.favorites:focus {
+  border: 3px solid #83b3d3;
+}
+
+.favorites:active {
+  opacity: 0.3;
+  background: #68a2ca;
+}
+
 .favorites-1 {
   font-size: 16px;
   line-height: 21px;
@@ -673,6 +738,20 @@ body {
   width: 160px;
   background-color: #7db54f;
   border-radius: 4px;
+}
+
+.favorites-1:hover {
+  background: #6c9e42;
+}
+
+.favorites-1:focus {
+  background: #6c9e42;
+  border: 3px solid #756257;
+}
+
+.favorites-1:active {
+  background: #6C9E42;
+  opacity:0.3;
 }
 
 .product-rating {
@@ -707,6 +786,20 @@ body {
   height: 55px;
   border: 0;
   border-radius: 4px;
+}
+
+.pagination-show-more:hover {
+  background: #68a2ca;
+}
+
+.pagination-show-more:focus {
+  background: #68a2ca;
+  border: 3px solid #756257;
+}
+
+.pagination-show-more:active {
+  background: #68a2ca;
+  opacity: 0.3;
 }
 
 .pagination {
@@ -760,6 +853,34 @@ body {
   width: 55px;
   height: 55px;
   border-radius: 4px;
+}
+
+.numbering:hover {
+  background: #68a2ca;
+}
+
+.numbering:focus {
+  background: #68a2ca;
+  border: 3px solid #756257;
+}
+
+.numbering:active {
+  background: #68a2ca;
+  opacity: 0.3;
+}
+
+.numbering-1:hover {
+  background: #68a2ca;
+}
+
+.numbering-1:focus {
+  background: #68a2ca;
+  border: 3px solid #756257;
+}
+
+.numbering-1:active {
+  background: #68a2ca;
+  opacity: 0.3;
 }
 
 .selected-page {
@@ -849,6 +970,8 @@ body {
 .footer-contacts {
   width: 720px;
   text-align: center;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
   padding-top: 40px;
   padding-bottom: 30px;
   padding-right: 61px;
@@ -1034,7 +1157,7 @@ body {
 .button-svg {
   padding:17px;
   margin-right: 8px;
-  border: 2px solid #E6E6E6;
+  border: 2px solid #e6e6e6;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -1045,6 +1168,207 @@ body {
   border-radius: 4px;
   margin-right: 0;
 }
+
+.button-svg:hover {
+  border: 2px solid #83B3D3;
+}
+
+.button-svg:focus {
+  border: 2px solid #83B3D3;
+}
+
+.button-svg:active{
+  border: 2px solid #000000;
+}
+
+.navigation-link:hover {
+  color: rgba(117, 98, 87, 1);
+}
+
+.navigation-link:focus {
+  border: 3px solid #83b3d3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.navigation-link:active {
+  color: rgba(117, 98, 87, 1);
+  opacity: 0.3;
+}
+
+.link-1:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.link-1:focus {
+  border: 3px solid #83b3d3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.link-1:active {
+  color: #ffffff;
+  opacity: 0.3;
+  background-color: #615048;
+}
+
+.navigation-link:hover .navigation-icon {
+  fill: #756257;
+}
+
+.navigation-link:focus .navigation-icon {
+  fill: #756257;
+}
+
+.navigation-link:active .navigation-icon {
+  fill: #756257;
+}
+
+.search-button:hover {
+  background-color: #615048;
+}
+
+.search-button:focus {
+  background-color: #615048;
+}
+
+.search-button:active {
+  color: #ffffff;
+  opacity: 0.3;
+  background-color: #615048;
+}
+
+.entry-field:hover {
+  background-color: #e6e6e6;
+}
+
+.entry-field:focus {
+  background-color: #e6e6e6;
+}
+
+.entry-field:active {
+  color: rgba(0, 0, 0, 1);
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.subscribe-button:hover {
+  background-color: #68a2Ca;
+}
+
+.subscribe-button:focus {
+  background-color: #68a2ca;
+}
+
+.subscribe-button:active {
+  background-color: #68a2ca;
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.butten-cocial:hover {
+  fill: #68a2Ca;
+}
+
+.butten-cocial:focus {
+  fill: #68a2Ca;
+  border: 3px solid #83b3d3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.butten-cocial:active {
+  fill: #68a2Ca;
+}
+
+.contacts:hover {
+  color: #756257;
+}
+
+.contacts:focus {
+  color: #756257;
+  border: 3px solid #83b3d3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.contacts:active {
+  color: #756257;
+  opacity: 0.3;
+}
+
+.navigation-icon-2:hover {
+  fill: #756257;
+}
+
+.navigation-icon-2:focus {
+  fill: #756257;
+  border: 3px solid #83b3d3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.navigation-icon-2:active {
+  fill: #756257;
+}
+
+.item-3::before {
+  position: absolute;
+  width: 19px;
+  height: 13px;
+  content: "12";
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  background-color: #7db54f;
+  border-radius: 10px;
+}
+
+.sorting-type:hover {
+  opacity: 0.6;
+}
+
+.sorting-type:focus {
+  border: 2px solid #83b3d3;
+}
+
+.sorting-type:active {
+  opacity: 0.3;
+}
+
+.product-card-image-1:hover {
+  opacity: 0.6;
+}
+
+.product-card-image-1:focus {
+  border: 3px solid #83b3d3;
+}
+
+.product-card-image-1:active {
+  opacity: 0.3;
+}
+
+.navigation-icon-1:hover {
+  fill: #68a2ca;
+}
+
+.navigation-icon-1:focus {
+  fill: #68a2ca;
+  border: 3px solid #83b3d3;
+  box-sizing: border-box;
+}
+
+.navigation-icon-1:active {
+  fill: #68a2ca;
+  opacity: 0.3;
+}
+
+
+
+
 
 
 
