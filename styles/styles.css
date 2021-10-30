@@ -92,8 +92,12 @@ body {
   color: #ffffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  width: 1200px;
+  max-width: 1200px;
   height: 408px;
+  padding-top: 35px;
+  padding-bottom: 83px;
+  padding-left: 71px;
+  padding-right: 72px;
 }
 
 .filter {
@@ -113,9 +117,7 @@ body {
   justify-content: space-between;
   width: 1056px;
   margin: 0;
-  padding-left: 71px;
-  padding-right: 72px;
-  padding-bottom: 83px;
+  padding: 0;
 }
 
 
@@ -492,13 +494,8 @@ body {
   text-align: left;
   color: #ffffff;
   margin: 0;
+  margin-bottom: 5px;
   padding: 0;
-}
-
-.inner-header {
-  padding-top: 35px;
-  padding-left: 71px;
-  padding-bottom: 52px;
 }
 
 .subtitle {
@@ -1000,6 +997,7 @@ body {
 
 .icons {
   display: flex;
+  margin-bottom: 45px;
 }
 
 .icons-1 {
@@ -1014,6 +1012,9 @@ body {
 
 .directory-buttons {
   display: block;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
 }
 
 .product-list {
@@ -1056,6 +1057,7 @@ body {
 .catalog-filter-item {
   list-style-type: none;
   margin-bottom: 13px;
+  width: 140px;
 }
 
 .catalog-filter-item:nth-child(3) {
@@ -1386,6 +1388,7 @@ body {
   padding-top: 14px;
   padding-bottom: 11px;
   padding-left: 19px;
+  width: 144px;
   font: inherit;
   font-weight: 400;
   background-color: transparent;
@@ -1427,6 +1430,68 @@ body {
   position: absolute;
   height: 4px;
   background-color: #ffffff;
+  width: 227px;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  background: #ffffff;
+  border: 3px solid #83B3D3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+} 
+
+
+.range-toggle:active {
+  background: #ffffff;
+  border: 2px solid #83B3D3;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-min {
+  top: -8px;
+  left: -5px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -30px;
+}
+
+.infrastructure-filter {
+  margin: 0;
+  margin-right: 67px;
+  padding: 0;
+}
+
+.housing-filter {
+  margin: 0;
+  margin-right: 167px;
+  padding: 0;
+}
+
+.price-filter {
+  margin: 0;
+  margin-right: 81px;
+  padding: 0;
+}
+
+.price-filter-1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 
