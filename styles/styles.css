@@ -31,7 +31,6 @@ html {
 }
 
 body {
-  position: relative;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -1320,14 +1319,15 @@ body {
 .item-3::before {
   position: absolute;
   width: 19px;
-  height: 13px;
+  height: 19px;
   content: "12";
   color: #ffffff;
   font-size: 10px;
-  line-height: 13px;
   text-align: center;
   background-color: #7db54f;
-  border-radius: 10px;
+  border-radius: 50%;
+  bottom: 25px;
+  left: 10px;
 }
 
 .sorting-type:hover {
