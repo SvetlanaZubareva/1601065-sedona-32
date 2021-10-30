@@ -1380,6 +1380,54 @@ body {
   content: "";
 }
 
+.catalog-filter-input {
+  margin: 0;
+  padding: 0;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  padding-left: 19px;
+  font: inherit;
+  font-weight: 400;
+  background-color: transparent;
+  border:  2px solid #ffffff;
+  border-radius: 4px;
+}
+
+
+.catalog-filter-input:hover {
+  opacity: 0.6;
+  border: 2px solid #ffffff;
+  border-radius: 4px 0px 0px 4px;
+}
+
+
+.catalog-filter-input:focus {
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+  border-radius: 4px 0px 0px 4px;
+}
+
+
+.catalog-filter-input:active {
+  border: 2px solid #ffffff;
+  background: #756257;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-top: 32px;
+  background-color: #ffffff;
+  opacity: 0.3;
+  border-radius: 2px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+}
 
 
 
