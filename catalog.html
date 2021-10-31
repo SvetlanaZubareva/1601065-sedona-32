@@ -29,13 +29,17 @@
       <ul class="navigation-user">
         <li class="navigation-item-1">
           <a class="navigation-link" href="#">
-            <img class="search" src="img/svg/search.svg" width="18" height="19" alt="Поиск">
+            <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="m18 16.5-3.7-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.6-8-8-8S0 3.6 0 8c0 4.4 3.6 8 8 8 1.8 0 3.5-.6 4.9-1.7l3.7 3.7 1.4-1.5ZM8 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6Z" />
+            </svg>
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
-        <li class="navigation-item-1">
+        <li class="navigation-item-1 item-3">
           <a class="navigation-link" href="#">
-            <img class="heart" src="img/svg/heart.svg" width="18" height="17" alt="Избранное">
+            <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18" height="17" viewBox="0 0 18 17" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.9 17c-.3 0-.6-.1-.8-.4-5.4-6.1-6.7-7.5-7-7.9C.4 7.8 0 6.6 0 5.4 0 2.4 2.4 0 5.5 0 6.8 0 8 .5 9 1.3 10 .5 11.3 0 12.5 0c3 0 5.5 2.4 5.5 5.4 0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" />
+            </svg>
             <span class="visually-hidden">Избранное </span>
           </a>
         </li>
@@ -49,13 +53,15 @@
       <div class="hotel-parameters">
         <section class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
-            <a href="#">
-              <div class="icons">
+            <div class="icons">
+              <a class="navigation-house" href="#">
                 <img class="icons-1" src="img/svg/house-1.png" width="12" height="12" alt="Домик">
-                <img class="icons-2" src="img/Vector-1.png" width="6" height="8" alt="стрелка">
+              </a>
+              <img class="icons-2" src="img/Vector-1.png" width="6" height="8" alt="стрелка">
+              <a class="navigation-house" href="#">
                 <p class="subtitle">Гостиницы</p>
-              </div>
-            </a>
+              </a>
+            </div>
         </section>
         <section class="catalog-products">
           <h2 class="visually-hidden">Список услуг с фильтрами</h2>
@@ -65,21 +71,21 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="Бассейн" checked>
+                    <input class="control-input visually-hidden" type="checkbox" name="Бассейн" checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Бассейн</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="Парковка" checked>
+                    <input class="control-input visually-hidden" type="checkbox" name="Парковка" checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Парковка</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="Wi-Fi">
+                    <input class="control-input visually-hidden" type="checkbox" name="Wi-Fi">
                     <span class="control-mark"></span>
                     <span class="control-label">Wi-Fi</span>
                   </label>
@@ -93,7 +99,7 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="product-group" value="type-of-housing"
+                    <input class="control-input visually-hidden" type="radio" name="product-group" value="type-of-housing"
                       checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Гостиница</span>
@@ -101,7 +107,7 @@
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="product-group"
+                    <input class="control-input visually-hidden" type="radio" name="product-group"
                       value="type-of-housing">
                     <span class="control-mark"></span>
                     <span class="control-label">Мотель</span>
@@ -109,7 +115,7 @@
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="product-group"
+                    <input class="control-input visually-hidden" type="radio" name="product-group"
                       value="type-of-housing">
                     <span class="control-mark"></span>
                     <span class="control-label">Апартаменты</span>
@@ -286,7 +292,7 @@
             </li>
             <li class="pagination-item">
               <div class="numbering-1">
-                <a class="pagination-current selected-page ">1</a>
+                <a class="selected-page slider-pagination-button-current">1</a>
               </div>
             </li>
             <li class="pagination-item">
