@@ -952,7 +952,12 @@ box-sizing: border-box;
 
 .page-footer {
   display: flex;
+  box-sizing: border-box;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
@@ -963,11 +968,8 @@ box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  width: 240px;
-  padding-right: 61px;
-  padding-top: 50px;
-  padding-left: 72px;
-  padding-bottom: 61px;
+  padding-top: 15px;
+  padding-right: 30px;
 }
 
 .footer-social-item {
@@ -985,24 +987,13 @@ box-sizing: border-box;
   text-align: center;
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  padding-right: 61px;
-  padding-left: 53px;
+  margin-right: 53px;
 }
 
 .contacts {
   font-size: 40px;
   line-height: 40px;
   font-weight:400;
-}
-
-
-.link {
-  padding-left: 53px;
-  padding-top: 42px;
-  padding-bottom: 49px;
-  padding-right: 45px;
 }
 
 .main-inner {
