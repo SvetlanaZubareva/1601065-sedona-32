@@ -204,6 +204,31 @@
       </button>
       <section class="modal-content">
         <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <div class="list-of-forms">
+            <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="field-group">
+                <label class="date-of-departure" for="auth-login">Дата заезда:</label>
+                <input class="auth-form-field" type="text" id="auth-login" name="auth-login" placeholder="27 апреля 2020">
+              </p>
+              <p class="field-group">
+                <label class="date-of-departure" for="auth-password">Дата выезда:</label>
+                <input class="auth-form-field" type="password" id="auth-password" name="auth-password" placeholder="1 сентября 2021">
+              </p>
+              <div class="list-of-form">
+                <p class="field-group">
+                  <label class="arrival-date" for="auth-login">Взрослые:</label>
+                  <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="2">
+                </p>
+                <p class="field-group">
+                  <label class="arrival-date" for="auth-password">Дети:</label>
+                  <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="1">
+                </p>
+              </div>
+            </form>
+          </div>
+          <button class="modal-find button" type="submit">
+            <span class="find-button">Найти</span>
+          </button>
       </section>
     </div>
   </div>
