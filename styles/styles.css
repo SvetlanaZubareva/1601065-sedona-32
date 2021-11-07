@@ -2206,3 +2206,51 @@ body {
   background-repeat: no-repeat;
   background-position: 380px;
 }
+
+.icons-info {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  background-color: #83b3d3;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  right: 100px;
+  left: 450px;
+  top: 400px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 256px;
+  min-height: 110px;
+  background: #333333;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  left: 350px;
+  top: 440px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.tooltiptext {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.tooltip:before {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  content: "";
+  background-color: #333333;
+  left: 40%;
+  bottom: 93%;
+  transform: rotate(45deg);
+}
