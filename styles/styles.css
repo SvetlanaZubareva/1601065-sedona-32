@@ -613,6 +613,8 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   background-position: 130px;
+  background-image: url("../img/svg/birdie.svg");
+  background-repeat: no-repeat;
 }
 
 .birdie-one {
@@ -1841,7 +1843,6 @@ body {
   right: 0;
   z-index: 1;
   width: 400px;
-  font-family: "PT Sans";
   color: rgba(0, 0, 0, 1);
   background-color: #ffffff;
   min-height: 232px;
@@ -1870,7 +1871,6 @@ body {
 
 .cart-item-title {
   margin: 0;
-  font-family: "PT Sans";
   font-weight: 700;
   font-size: 18px;
   color: #000000;
@@ -1878,9 +1878,9 @@ body {
 
 .cart-item-price {
   margin: 0;
-  font-family: "PT Sans";
   font-weight: 400;
   font-size: 16px;
+  color: #333333;
 }
 
 .cart-item {
@@ -1939,7 +1939,6 @@ body {
 .link-2 {
   display: inline-block;
   width: 100%;
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1965,7 +1964,6 @@ body {
   background: #615048;
   box-shadow: 0 0 0 3px  #83b3d3;
   outline: none;
-  border-radius: 4px;
   border-radius: 0 0 20px 20px;
 }
 
@@ -2041,7 +2039,6 @@ body {
 }
 
 .modal-title {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -2098,8 +2095,7 @@ body {
   background: #68a2ca;
 }
 
-.date-of-departure, .arrival-date {
-  font-family: "PT Sans";
+.date-of-departure .arrival-date {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -2114,7 +2110,6 @@ body {
 
 
 .auth-form-field {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -2140,7 +2135,6 @@ body {
   box-shadow: 0 0 0 3px #83b3d3;
   outline: none;
   border-radius: 4px;
-  outline: none;
 }
 
 .auth-form-field:active {
@@ -2150,8 +2144,16 @@ body {
   outline: none;
 }
 
+.auth-form-field:disabled:hover {
+  background-color: #ffffff;
+  color: #000000;
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: 0 0 0 2px #ff5757;
+  outline: none;
+}
+
 .find-button {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -2228,7 +2230,6 @@ body {
 }
 
 .number-twelve {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -2242,7 +2243,6 @@ body {
 .error-in-form {
   margin: 0;
   margin-bottom: 11px;
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2255,7 +2255,6 @@ body {
 .error-in {
   margin: 0;
   margin-bottom: 11px;
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2297,7 +2296,6 @@ body {
 }
 
 .tooltiptext {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2307,7 +2305,7 @@ body {
   color: #ffffff;
 }
 
-.tooltip:before {
+.tooltip::before {
   position: absolute;
   width: 19px;
   height: 19px;
@@ -2376,6 +2374,7 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
 }
+
 .minus:active {
   fill: #000000;
   opacity: 0.2;
