@@ -42,6 +42,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  min-width: 1200px;
 }
 
 .main-container {
@@ -68,11 +69,11 @@ body {
 .newsletter-1 {
   box-sizing: border-box;
   background-image: url("../img/background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   padding-top: 91px;
   padding-bottom: 94px;
   margin: 0 auto;
+  background-size: cover;
 }
 
 
@@ -88,12 +89,15 @@ body {
   box-sizing: border-box;
   background-image: url("../img/catalog-background.jpg");
   color: #ffffffff;
-  background-size: 100% auto;
   background-repeat: no-repeat;
   padding-top: 35px;
   padding-bottom: 83px;
   margin: 0 auto;
   max-width: 1200px;
+  min-height: 408px;
+  background-color: #83b3d3;
+  height: 100%;
+  background-size: cover;
 }
 
 .filter {
@@ -104,7 +108,7 @@ body {
   padding-top: 35px;
   padding-left: 71px;
   padding-right: 72px;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 }
 
 .catalog-products {
@@ -166,29 +170,26 @@ body {
 
 
 .navigation-item {
-  margin-left: 33px;
+  margin-right: 33px;
   position: relative;
   box-sizing: border-box;
 }
 
-.navigation-item:nth-child(1) {
-  margin-left: 0;
+.navigation-item:nth-child(3) {
+  margin-right: 0;
 }
 
 .navigation-item-1 {
-  margin-left: 21px;
+  margin-right: 21px;
   position: relative;
   box-sizing: border-box;
   display: inline-block;
 }
 
-.navigation-item-1:nth-child(1) {
-  margin-left: 0;
+.navigation-item-1:nth-child(3) {
+  margin-right: 0;
 }
 
-.navigation-item-1:nth-child(3) {
-  margin-left: 33px;
-}
 
 .navigation-user {
   display: flex;
@@ -716,8 +717,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   background-color: #756257;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   margin-right: 8px;
   border-radius: 4px;
   width: 160px;
@@ -772,8 +772,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+ padding: 10px;
   border-radius: 4px;
   width: 160px;
 }
@@ -787,8 +786,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+ padding: 10px;
   width: 160px;
   background-color: #7db54f;
   border: none;
@@ -824,8 +822,7 @@ body {
 
 .product-rating-1 {
   background-color: #f2f2f2;
-  padding-top: 9px;
-  padding-bottom: 10px;
+  padding: 10px;
   width: 160px;
   margin: 0;
   border-radius: 4px;
@@ -845,6 +842,8 @@ body {
   height: 55px;
   border: 0;
   border-radius: 4px;
+  margin-top: 31px;
+  padding: 10px;
 }
 
 .pagination-show-more:hover {
@@ -906,9 +905,11 @@ body {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  width: 55px;
-  height: 55px;
+  min-width: 55px;
+  min-height: 55px;
+  padding: 10px;
   border-radius: 4px;
+  overflow: hidden;
 }
 
 
@@ -1096,14 +1097,16 @@ body {
   grid-template-columns: 1056px;
   padding-left: 72px;
   padding-right: 72px;
-  padding-bottom: 61px;
+  padding-bottom: 30px;
   margin: 0;
-  gap: 56px;
+  gap: 30px;
 }
 
 
 .list-of-cards {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 
@@ -1142,6 +1145,7 @@ body {
 .product-card {
   display: flex;
   margin: 0;
+  padding-top: 31px;
   border-top: 1px solid #e6e6e6;
 }
 
@@ -1469,8 +1473,13 @@ body {
 
 
 .sorting-type {
+  display: flex;
   border: 2px solid #e6e6e6;
   border-radius: 4px;
+}
+
+.sorting-type-1 {
+  display: flex;
 }
 
 
@@ -1572,6 +1581,7 @@ body {
   border-radius: 4px 0 0 4px;
   appearance: textfield;
   text-align: right;
+  box-sizing: border-box;
 }
 
 .catalog-filter-input-1 {
@@ -1589,6 +1599,7 @@ body {
   border-radius: 0 4px 4px 0;
   appearance: textfield;
   text-align: right;
+  box-sizing: border-box;
 }
 
 .catalog-filter-label {
@@ -2227,6 +2238,7 @@ body {
   display: flex;
   justify-content: center;
   border-top: 1px solid #e6e6e6;
+  box-sizing: border-box;
 }
 
 .number-twelve {
@@ -2296,6 +2308,8 @@ body {
 }
 
 .tooltiptext {
+  display: flex;
+  flex-wrap: wrap;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2426,3 +2440,4 @@ body {
   fill: #000000;
   opacity: 0.2;
 }
+
