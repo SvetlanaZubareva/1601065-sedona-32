@@ -2217,7 +2217,7 @@ body {
   opacity: 0.6;
 }
 
-.svg-link:hover {
+.svg-link:hover .svg {
   fill: #000000;
 }
 
