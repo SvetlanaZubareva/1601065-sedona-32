@@ -207,7 +207,7 @@ body {
 
 .heading {
   box-sizing: border-box;
-  padding-top: 63px;
+  padding-top: 56px;
   padding-bottom: 79px;
 }
 
@@ -610,6 +610,7 @@ body {
   width: 160px;
   height: 48px;
   padding-left: 10px;
+  padding-right: 10px;
   appearance: none;
   border: 2px solid #e6e6e6;
   box-sizing: border-box;
@@ -638,11 +639,14 @@ body {
   width: 287px;
   height: 48px;
   padding-left: 10px;
+  padding-right: 10px;
   appearance: none;
   border: 2px solid #e6e6e6;
   box-sizing: border-box;
   border-radius: 4px;
   background-position: 250px;
+  background-image: url("../img/svg/birdie.svg");
+  background-repeat: no-repeat;
 }
 
 .birdie {
@@ -1476,8 +1480,8 @@ body {
   text-align: center;
   background-color: #7db54f;
   border-radius: 50%;
-  bottom: 17px;
-  left: 13px;
+  bottom: 23px;
+  left: 15px;
 }
 
 
@@ -1507,7 +1511,7 @@ body {
 }
 
 .select-control-1:active {
-  background: #f2f2f2;
+  background-color: #f2f2f2;
   color: #333333;
   opacity: 0.3;
 }
@@ -1525,7 +1529,7 @@ body {
 }
 
 .select-control:active {
-  background: #f2f2f2;
+  background-color: #f2f2f2;
   color: #333333;
   opacity: 0.3;
 }
@@ -2257,8 +2261,8 @@ body {
   line-height: 13px;
   color: #ffffff;
   position: absolute;
-  right: 0;
-  top: -6px;
+  right: -1px;
+  top: 1px;
 }
 
 .error-in-form {
@@ -2448,5 +2452,13 @@ body {
 .plus-one:active {
   fill: #000000;
   opacity: 0.2;
+}
+
+.search-navigation {
+  padding-top: 10px;
+}
+
+.navigation-favorites {
+  padding-top: 10px;
 }
 
