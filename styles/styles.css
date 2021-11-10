@@ -137,7 +137,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 71px;
+  padding-left: 66px;
   padding-right: 151px;
   padding-top: 19px;
   padding-bottom: 20px;
@@ -170,7 +170,7 @@ body {
 
 
 .navigation-item {
-  margin-right: 33px;
+  margin-right: 23px;
   position: relative;
   box-sizing: border-box;
 }
@@ -276,6 +276,7 @@ body {
 
 .preferences-list {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -1296,6 +1297,16 @@ body {
   outline: none;
 }
 
+.navigation-link:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.navigation-link:focus-visible {
+  box-shadow: 0 0 0 3px #83b3d3;
+  border-radius: 10px;
+  outline: none;
+}
+
 .navigation-link:active {
   color: rgba(117, 98, 87, 0.3);
 }
@@ -1980,7 +1991,7 @@ body {
 
 .link-2:active {
   background: #615048;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
   border-radius: 0 0 20px 20px;
 }
 
