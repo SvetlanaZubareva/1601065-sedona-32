@@ -70,8 +70,8 @@ body {
   box-sizing: border-box;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
-  padding-top: 91px;
-  padding-bottom: 94px;
+  padding-top: 100px;
+  padding-bottom: 90px;
   margin: 0 auto;
   background-size: cover;
 }
@@ -452,9 +452,12 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
-  padding: 20px;
   border: 0;
   border-radius: 0 10px 10px 0;
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 200px;
 }
 
 .entry-field {
@@ -464,9 +467,11 @@ body {
   line-height: 26px;
   background-color: #f2f2f2;
   width: 100%;
+  height: 60px;
   padding: 20px;
   border: 0;
   border-radius: 10px 0 0 10px;
+  box-sizing: border-box;
 }
 
 .entry-field::placeholder {
