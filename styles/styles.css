@@ -477,7 +477,6 @@ body {
 }
 
 .entry-field::placeholder {
-  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -861,7 +860,7 @@ body {
   min-height: 55px;
   border: 0;
   border-radius: 4px;
-  margin-top: 30px;
+  margin-top: 25px;
   padding: 10px;
 }
 
@@ -1072,10 +1071,14 @@ body {
 
 .breadcrumbs {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   margin-top: 0;
   padding: 0;
   cursor: pointer;
+}
+
+.icons-1 {
+  display: block;
 }
 
 .icons-1:hover {
@@ -1103,7 +1106,7 @@ body {
 }
 
 .icons-2 {
-  margin-right: 11px;
+  margin-right: 8px;
   margin-top: 5px;
 }
 
@@ -1843,16 +1846,17 @@ body {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
+  display: block;
   text-align: left;
   color: #ffffff;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   text-decoration: none;
 }
 
 .breadcrumbs-item {
+  display: block;
   list-style: none;
-  margin-right: 12px;
 }
 
 
