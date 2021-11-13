@@ -81,7 +81,7 @@ body {
   display: block;
   margin: 0;
   padding-top: 87px;
-  padding-bottom: 100px;
+  padding-bottom: 130px;
 }
 
 
@@ -91,7 +91,7 @@ body {
   color: #ffffffff;
   background-repeat: no-repeat;
   padding-top: 30px;
-  padding-bottom: 83px;
+  padding-bottom: 70px;
   margin: 0 auto;
   max-width: 1200px;
   min-height: 408px;
@@ -105,10 +105,10 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  padding-top: 35px;
+  padding-top: 45px;
   padding-left: 71px;
   padding-right: 72px;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
 }
 
 .catalog-products {
@@ -538,7 +538,7 @@ body {
   font-weight: 700;
   text-align: left;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .to-apply {
@@ -576,11 +576,11 @@ body {
   text-align: center;
   color: #ffffff;
   padding-top: 0;
-  padding-left: 30px;
+  padding-left: 40px;
   padding-right: 30px;
   background-color: transparent;
   border: 0;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .throw-off:hover {
@@ -616,7 +616,7 @@ body {
   color: #333333;
   width: 160px;
   height: 48px;
-  padding-left: 10px;
+  padding-left: 13px;
   padding-right: 10px;
   appearance: none;
   border: 2px solid #e6e6e6;
@@ -645,13 +645,14 @@ body {
   color: #333333;
   width: 287px;
   height: 48px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 10px;
+  padding-bottom: 15px;
   appearance: none;
   border: 2px solid #e6e6e6;
   box-sizing: border-box;
   border-radius: 4px;
-  background-position: 250px;
+  background-position: 250px 12px;
   background-image: url("../img/svg/birdie.svg");
   background-repeat: no-repeat;
 }
@@ -701,6 +702,7 @@ body {
 
 .card-1 {
   margin-right: 78px;
+  margin-top: 2px;
 }
 
 .card-2 {
@@ -732,7 +734,7 @@ body {
   padding: 10px;
   margin-right: 8px;
   border-radius: 4px;
-  width: 160px;
+  width: 151px;
   justify-content: center;
 }
 
@@ -780,11 +782,12 @@ body {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
+  box-sizing: border-box;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
- padding: 10px;
+  padding: 10px;
   border-radius: 4px;
   width: 160px;
 }
@@ -794,11 +797,12 @@ body {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
+  box-sizing: border-box;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
- padding: 10px;
+  padding: 10px;
   width: 160px;
   background-color: #7db54f;
   border: none;
@@ -822,6 +826,7 @@ body {
 
 .rating {
   text-align: center;
+  margin-top: 3px;
 }
 
 .product-rating {
@@ -833,8 +838,10 @@ body {
 }
 
 .product-rating-1 {
+  box-sizing: border-box;
   background-color: #f2f2f2;
   padding: 10px;
+  padding-top: 5px;
   width: 160px;
   margin: 0;
   border-radius: 4px;
@@ -854,7 +861,7 @@ body {
   min-height: 55px;
   border: 0;
   border-radius: 4px;
-  margin-top: 31px;
+  margin-top: 30px;
   padding: 10px;
 }
 
@@ -876,6 +883,7 @@ body {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -902,7 +910,7 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   padding-right: 72px;
-  padding-top: 64px;
+  padding-top: 62px;
   padding-left: 72px;
 }
 
@@ -966,6 +974,7 @@ body {
   color: #333333;
   margin-right: 51px;
   border: none;
+  padding-top: 10px;
 }
 
 .subscription {
@@ -1063,7 +1072,7 @@ body {
 
 .breadcrumbs {
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   margin-top: 0;
   padding: 0;
   cursor: pointer;
@@ -1102,7 +1111,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  padding-top: 60px;
+  padding-top: 65px;
 }
 
 .product-list {
@@ -1146,7 +1155,7 @@ body {
 
 .catalog-filter-item {
   list-style-type: none;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
   width: 140px;
 }
 
@@ -1158,7 +1167,7 @@ body {
 .product-card {
   display: flex;
   margin: 0;
-  padding-top: 31px;
+  padding-top: 25px;
   border-top: 1px solid #e6e6e6;
 }
 
@@ -1173,12 +1182,12 @@ body {
 .product-card-price-1 {
   display: flex;
   margin-top: 1px;
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 }
 
 .card-link {
   padding-left: 37px;
-  padding-right: 351px;
+  padding-right: 358px;
 }
 
 .product-star {
@@ -1586,11 +1595,11 @@ body {
 .catalog-filter-input {
   margin: 0;
   padding: 0;
-  padding-top: 14px;
-  padding-bottom: 11px;
+  padding-top: 10px;
+  padding-bottom: 12px;
   padding-left: 10px;
-  padding-right: 10px;
-  width: 122px;
+  padding-right: 14px;
+  width: 145px;
   font: inherit;
   font-weight: 400;
   background-color: transparent;
@@ -1604,11 +1613,11 @@ body {
 .catalog-filter-input-1 {
   margin: 0;
   padding: 0;
-  padding-top: 14px;
-  padding-bottom: 11px;
+  padding-top: 10px;
+  padding-bottom: 12px;
   padding-left: 10px;
-  padding-right: 10px;
-  width: 122px;
+  padding-right: 14px;
+  width: 145px;
   font: inherit;
   font-weight: 400;
   background-color: transparent;
@@ -1722,7 +1731,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  right: -100px;
+  right: -109px;
 }
 
 .infrastructure-filter {
@@ -1752,7 +1761,7 @@ body {
 .control {
   position: relative;
   display: block;
-  padding-left: 36px;
+  padding-left: 40px;
 }
 
 .control-mark {
@@ -1843,6 +1852,7 @@ body {
 
 .breadcrumbs-item {
   list-style: none;
+  margin-right: 12px;
 }
 
 
@@ -1873,16 +1883,16 @@ body {
   width: 400px;
   color: rgba(0, 0, 0, 1);
   background-color: #ffffff;
-  min-height: 232px;
+  min-height: 225px;
   border: 0;
   box-sizing: border-box;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 55px;
   left: 50%;
-  margin-left: -190px;
+  margin-left: -200px;
   display: none;
 }
 
@@ -1912,10 +1922,11 @@ body {
 }
 
 .cart-item {
+  display: grid;
+  grid-template-columns: 330px 50px;
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin: 25px;
+  margin: 10px;
+  margin-left: 20px;
 }
 
 .cart-items-list {
@@ -2025,11 +2036,13 @@ body {
 .modal {
   position: relative;
   margin: auto;
-  padding-top: 62px;
+  padding-top: 75px;
   padding-bottom: 70px;
   padding-left: 70px;
   padding-right: 70px;
   background-color: #ffffff;
+  border-radius: 30px;
+  min-height: 561px;
 }
 
 .modal-auth {
@@ -2041,7 +2054,7 @@ body {
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 55px;
+  top: 60px;
   right: 70px;
   width: 53px;
   height: 53px;
@@ -2074,7 +2087,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 
@@ -2123,6 +2136,11 @@ body {
   background: #68a2ca;
 }
 
+.date-of-departure {
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
 .date-of-departure .arrival-date {
   font-style: normal;
   font-weight: 700;
@@ -2134,6 +2152,7 @@ body {
 
 .arrival-date {
   margin-right: 75px;
+  margin-top: 10px;
 }
 
 
@@ -2151,6 +2170,9 @@ body {
   height: 50px;
   padding: 20px;
   box-sizing: border-box;
+  background-image: url("../img/svg/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: 390px;
 }
 
 .auth-form-field:hover {
@@ -2199,7 +2221,7 @@ body {
 .field {
   width: 133px;
   box-sizing: border-box;
-  margin-right: 30px;
+  margin-right: 60px;
   text-align: center;
   background-color: #f2f2f2;
 }
@@ -2208,6 +2230,7 @@ body {
   display: flex;
   text-decoration: none;
   padding: 10px;
+  padding-left: 5px;
 }
 
 .popover-img-link:hover {
@@ -2230,7 +2253,9 @@ body {
 }
 
 .svg-link {
-  display: block
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .svg-link:hover .svg {
@@ -2254,7 +2279,7 @@ body {
 .price-size {
   position: absolute;
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .catalog-filte {
@@ -2281,7 +2306,6 @@ body {
 
 .error-in-form {
   margin: 0;
-  margin-bottom: 11px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2313,8 +2337,8 @@ body {
   height: 25px;
   border-radius: 50%;
   right: 100px;
-  left: 450px;
-  top: 400px;
+  left: 470px;
+  top: 365px;
 }
 
 .icons-info:hover {
@@ -2322,16 +2346,16 @@ body {
 }
 
 .tooltip {
+  box-sizing: border-box;
   position: absolute;
   width: 256px;
-  min-height: 110px;
+  min-height: 143px;
   background: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  left: 350px;
-  top: 440px;
-  box-sizing: border-box;
-  padding: 15px;
+  left: 370px;
+  top: 410px;
+  padding: 20px;
 }
 
 .tooltiptext {
@@ -2374,35 +2398,39 @@ body {
 
 .minus {
   position: absolute;
-  top: 406px;
+  top: 380px;
   right: 450px;
   cursor: pointer;
   padding: 10px;
+  fill: #000000;
   opacity: 0.3;
 }
 
 .plus {
   position: absolute;
-  top: 410px;
-  right: 380px;
+  top: 380px;
+  right: 370px;
   cursor: pointer;
+  fill: #000000;
   opacity: 0.3;
 }
 
 .minus-one {
   position: absolute;
-  top: 406px;
-  right: 170px;
+  top: 380px;
+  right: 160px;
   cursor: pointer;
   padding: 10px;
+  fill: #000000;
   opacity: 0.3;
 }
 
 .plus-one {
   position: absolute;
-  top: 410px;
-  right: 100px;
+  top: 380px;
+  right: 90px;
   cursor: pointer;
+  fill: #000000;
   opacity: 0.3;
 }
 
@@ -2490,8 +2518,14 @@ body {
 
 .cross {
   fill: #000000;
+  margin-top: 20px;
 }
 
 .icon-info {
   fill: #ffffff;
+}
+
+
+.children {
+  margin-right: 55px;
 }
