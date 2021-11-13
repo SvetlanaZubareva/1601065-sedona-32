@@ -1555,6 +1555,14 @@ body {
   opacity: 0.3;
 }
 
+.product-card-image-1 {
+  display: block;
+}
+
+.product-card-image {
+  display: block;
+}
+
 .product-card-image-1:hover {
   opacity: 0.6;
 }
