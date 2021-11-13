@@ -139,8 +139,8 @@ body {
   padding: 0;
   padding-left: 66px;
   padding-right: 151px;
-  padding-top: 14px;
-  padding-bottom: 19px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .navigation-link {
@@ -160,10 +160,10 @@ body {
   color: #ffffff;
   text-align: center;
   min-width: 160px;
-  padding-top: 9px;
-  padding-bottom: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 4px;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -198,8 +198,8 @@ body {
   box-sizing: border-box;
   list-style-type: none;
   margin: 0;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 209px;
   padding-right: 72px;
 }
@@ -445,6 +445,7 @@ body {
 }
 
 .subscribe-button {
+  font-family: "PT Sans";
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -457,12 +458,13 @@ body {
   box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   min-width: 200px;
 }
 
 .entry-field {
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -484,6 +486,7 @@ body {
 }
 
 .entry-field-1 {
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -608,23 +611,6 @@ body {
   text-transform: uppercase;
 }
 
-.select-control {
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 400;
-  color: #333333;
-  width: 160px;
-  height: 48px;
-  padding-left: 13px;
-  padding-right: 10px;
-  appearance: none;
-  border: 2px solid #e6e6e6;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-position: 130px;
-  background-image: url("../img/svg/birdie.svg");
-  background-repeat: no-repeat;
-}
 
 .birdie-one {
   position: absolute;
@@ -634,26 +620,6 @@ body {
 
 .birdie-one:active {
   opacity: 0.3;
-}
-
-
-.select-control-1 {
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 400;
-  color: #333333;
-  width: 287px;
-  height: 48px;
-  padding-left: 15px;
-  padding-right: 10px;
-  padding-bottom: 15px;
-  appearance: none;
-  border: 2px solid #e6e6e6;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-position: 250px 12px;
-  background-image: url("../img/svg/birdie.svg");
-  background-repeat: no-repeat;
 }
 
 .birdie {
@@ -826,6 +792,7 @@ body {
 .rating {
   text-align: center;
   margin-top: 3px;
+  margin-left: auto;
 }
 
 .product-rating {
@@ -1169,6 +1136,7 @@ body {
 
 .product-card {
   display: flex;
+  align-items: start;
   margin: 0;
   padding-top: 25px;
   border-top: 1px solid #e6e6e6;
@@ -1190,7 +1158,7 @@ body {
 
 .card-link {
   padding-left: 37px;
-  padding-right: 358px;
+  padding-right: 37px;
 }
 
 .product-star {
@@ -1274,6 +1242,7 @@ body {
 }
 
 .button {
+  font-family: "PT Sans";
   cursor: pointer;
   display: inline-block;
   box-sizing: border-box;
@@ -1512,45 +1481,6 @@ body {
 }
 
 
-.select-control-1:hover {
-  box-shadow: 0 0 0 2px #83b3d3;
-  outline: none;
-  border: none;
-  border-radius: 4px;
-}
-
-.select-control-1:focus-visible {
-  box-shadow: 0 0 0 2px #83b3d3;
-  outline: none;
-  border: none;
-  border-radius: 4px;
-}
-
-.select-control-1:active {
-  background-color: #f2f2f2;
-  color: #333333;
-  opacity: 0.3;
-}
-
-.select-control:hover {
-  box-shadow: 0 0 0 2px #83b3d3;
-  outline: none;
-  border: none;
-  border-radius: 4px;
-}
-
-.select-control:focus-visible {
-  box-shadow: 0 0 0 2px #83b3d3;
-  outline: none;
-}
-
-.select-control:active {
-  background-color: #f2f2f2;
-  color: #333333;
-  opacity: 0.3;
-}
-
-
 .sorting-type:active {
   opacity: 0.3;
 }
@@ -1609,16 +1539,22 @@ body {
   padding-top: 10px;
   padding-bottom: 12px;
   padding-left: 10px;
-  padding-right: 14px;
+  padding-right: 40px;
   width: 145px;
   font: inherit;
   font-weight: 400;
   background-color: transparent;
+  color: #ffffff;
+  opacity: none;
   border: 2px solid #ffffff;
   border-radius: 4px 0 0 4px;
   appearance: textfield;
-  text-align: right;
+  text-align: left;
   box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-input-placeholder {
+  color: #ffffff;
 }
 
 .catalog-filter-input-1 {
@@ -1627,15 +1563,16 @@ body {
   padding-top: 10px;
   padding-bottom: 12px;
   padding-left: 10px;
-  padding-right: 14px;
+  padding-right: 40px;
   width: 145px;
   font: inherit;
   font-weight: 400;
   background-color: transparent;
+  color: #ffffff;
   border: 2px solid #ffffff;
   border-radius: 0 4px 4px 0;
   appearance: textfield;
-  text-align: right;
+  text-align: left;
   box-sizing: border-box;
 }
 
@@ -1939,6 +1876,7 @@ body {
   list-style-type: none;
   margin: 10px;
   margin-left: 20px;
+  align-items: start;
 }
 
 .cart-items-list {
@@ -1951,9 +1889,89 @@ body {
   padding-right: 601px;
 }
 
-.form {
+.select {
   margin-right: 81px;
   width: 287px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+  width: 160px;
+  height: 48px;
+  padding-left: 13px;
+  padding-right: 10px;
+  appearance: none;
+  border: 2px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-position: 130px;
+  background-image: url("../img/svg/birdie.svg");
+  background-repeat: no-repeat;
+}
+
+.select-control-1 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+  width: 287px;
+  height: 48px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  appearance: none;
+  border: 2px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-position: 250px 12px;
+  background-image: url("../img/svg/birdie.svg");
+  background-repeat: no-repeat;
+}
+
+.select-control-1:hover,
+.select-control-1:focus {
+  box-shadow: 0 0 0 2px #83b3d3;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.select-control-1:focus {
+  box-shadow: 0 0 0 2px #83b3d3;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.select-control-1:active {
+  background-color: #f2f2f2;
+  color: #333333;
+  opacity: 0.3;
+}
+
+.select-control:hover,
+.select-control:focus {
+  box-shadow: 0 0 0 2px #83b3d3;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.select-control:focus {
+  box-shadow: 0 0 0 2px #83b3d3;
+  outline: none;
+}
+
+.select-control:active {
+  background-color: #f2f2f2;
+  color: #333333;
+  opacity: 0.3;
 }
 
 .link-1:hover {
@@ -2042,7 +2060,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
-  display: none;
 }
 
 .modal {
@@ -2109,9 +2126,6 @@ body {
   margin: 0;
 }
 
-.modal-container-close {
-  display: none;
-}
 
 .list-of-forms {
   box-sizing: border-box;
@@ -2291,7 +2305,9 @@ body {
 .price-size {
   position: absolute;
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 110px;
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 .catalog-filte {
@@ -2312,8 +2328,8 @@ body {
   line-height: 13px;
   color: #ffffff;
   position: absolute;
-  right: -2px;
-  top: 7px;
+  right: -3px;
+  top: 3px;
 }
 
 .error-in-form {
@@ -2539,4 +2555,12 @@ body {
 
 .children {
   margin-right: 55px;
+}
+
+select {
+  font-family: "PT Sans";
+}
+
+.modal-container-close {
+  display: none;
 }
