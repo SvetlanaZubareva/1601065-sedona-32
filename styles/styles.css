@@ -457,7 +457,9 @@ body {
   box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
-  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 200px;
 }
 
 .entry-field {
@@ -504,6 +506,7 @@ body {
 
 .record-field {
   display: flex;
+  box-sizing: border-box;
   border: 0;
   width: 800px;
   margin: 0 auto;
@@ -1871,7 +1874,7 @@ body {
   color: rgba(0, 0, 0, 1);
   background-color: #ffffff;
   min-height: 232px;
-  border: 1px solid #e6e6e6;
+  border: 0;
   box-sizing: border-box;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -2204,6 +2207,7 @@ body {
 .popover-img-link {
   display: flex;
   text-decoration: none;
+  padding: 10px;
 }
 
 .popover-img-link:hover {
@@ -2218,6 +2222,15 @@ body {
 
 .popover-img-link:active {
   opacity: 0.6;
+}
+
+.svg {
+  fill: rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+.svg-link {
+  display: block
 }
 
 .svg-link:hover .svg {
@@ -2475,3 +2488,10 @@ body {
   margin-top: 6px;
 }
 
+.cross {
+  fill: #000000;
+}
+
+.icon-info {
+  fill: #ffffff;
+}
