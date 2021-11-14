@@ -2426,18 +2426,16 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .minus {
-  position: absolute;
+  display: block;
   top: 365px;
   right: 450px;
   cursor: pointer;
-  padding: 10px;
   fill: #000000;
   opacity: 0.3;
   border: none;
 }
 
 .plus {
-  position: absolute;
   top: 365px;
   right: 370px;
   cursor: pointer;
@@ -2447,17 +2445,14 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .minus-one {
-  position: absolute;
   top: 365px;
   right: 160px;
   cursor: pointer;
-  padding: 10px;
   fill: #000000;
   opacity: 0.3;
 }
 
 .plus-one {
-  position: absolute;
   top: 365px;
   right: 90px;
   cursor: pointer;
@@ -2468,23 +2463,26 @@ input[type="number"]::-webkit-input-placeholder {
 .reference-quantity {
   position: absolute;
   border: none;
-  width: 20px;
-  height: 20px;
   top: 360px;
   right: 450px;
   cursor: pointer;
   background-color: inherit;
+  display: block;
+  padding: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.reference-quantity:hover .minus {
+.minus:hover {
   fill: #000000;
 }
 
-.minus:focus-visible {
-  border: 3px solid #83b3d3;
-  box-sizing: border-box;
+.reference-quantity:focus-visible {
+  box-shadow: 0 0 0 3px  #83b3d3;
   border-radius: 4px;
+  outline: none;
 }
+
 
 .minus:active {
   fill: #000000;
@@ -2496,10 +2494,10 @@ input[type="number"]::-webkit-input-placeholder {
   fill: #000000;
 }
 
-.minus-one:focus-visible {
-  border: 3px solid #83b3d3;
-  box-sizing: border-box;
+.reference-quantity-two:focus-visible {
+  box-shadow: 0 0 0 3px  #83b3d3;
   border-radius: 4px;
+  outline: none;
 }
 
 .minus-one:active {
@@ -2511,10 +2509,11 @@ input[type="number"]::-webkit-input-placeholder {
   fill: #000000;
 }
 
-.plus:focus-visible {
-  border: 3px solid #83b3d3;
-  box-sizing: border-box;
+
+.reference-quantity-one:focus-visible {
+  box-shadow: 0 0 0 3px  #83b3d3;
   border-radius: 4px;
+  outline: none;
 }
 
 .plus:active {
@@ -2527,10 +2526,10 @@ input[type="number"]::-webkit-input-placeholder {
   fill: #000000;
 }
 
-.plus-one:focus-visible {
-  border: 3px solid #83b3d3;
-  box-sizing: border-box;
+.reference-quantity-one-tw:focus-visible {
+  box-shadow: 0 0 0 3px  #83b3d3;
   border-radius: 4px;
+  outline: none;
 }
 
 .plus-one:active {
@@ -2584,4 +2583,32 @@ input {
   display: none;
 }
 
+.reference-quantity-one {
+  display: block;
+  position: absolute;
+  border: none;
+  top: 360px;
+  right: 370px;
+  padding: 5px;
+  background-color: inherit;
+}
 
+.reference-quantity-two {
+  position: absolute;
+  border: none;
+  display: block;
+  padding: 5px;
+  top: 355px;
+  right: 160px;
+  background-color: inherit;
+}
+
+.reference-quantity-one-tw {
+  position: absolute;
+  border: none;
+  display: block;
+  padding: 5px;
+  top: 360px;
+  right: 90px;
+  background-color: inherit;
+}

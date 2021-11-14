@@ -229,31 +229,22 @@
             <div class="list-of-form">
               <p class="field-group">
                 <label class="arrival-date" for="auth-login">Взрослые:</label>
-                <!-- <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="Укажите" value="2" required >
-                <a class="reference-quantity" href="#">
+                <button class="reference-quantity" type="button">
                   <svg class="minus" width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity=".3" d="M0 0v1h13V0H0Z"/>
                   </svg>
-                </a>
-                <a class="reference-quantity" href="#">
+                </button>
+                <input class="auth-form-field field" id="amount" type="text" value="2"/>
+                <button class="reference-quantity-one" type="button">
                   <svg class="plus" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/>
                   </svg>
-                </a> -->
-                <button class="reference-quantity" type="button" value="-" onClick="change('amount',0,10, 1);">
-                  </button>
-                <svg class="minus" width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path opacity=".3" d="M0 0v1h13V0H0Z"/>
-                </svg>
-                <input class="auth-form-field field" id="amount" type="text" value="2"/>
-                <button class="plus reference-quantity" type="button" value="+" onClick="change('amount',0,10,-1);">
                 </button>
-
               </p>
               <p class="field-group">
                 <label class="arrival-date children" for="auth-password">Дети:</label>
               </p>
-              <button class="icons-info">
+              <button class="icons-info" type="button">
                   <svg class="icon-info" width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)">
                     <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h1v9H0z"/></clipPath></defs>
                   </svg>
@@ -261,22 +252,23 @@
               <div class="tooltip">
                 <span class="tooltiptext">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
               </div>
-              <input class="auth-form-field field" type="text" id="auth-password" name="auth-password" placeholder="Укажите" value="1" required>
-                <a class="reference-quantity" href="#">
-                  <svg  class="minus-one" width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity=".3" d="M0 0v1h13V0H0Z"/>
-                  </svg>
-                </a>
-                <a class="reference-quantity" href="#">
-                  <svg class="plus-one" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/>
-                  </svg>
-                </a>
+
+              <button class="reference-quantity-two" type="button">
+                <svg class="minus-one" width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity=".3" d="M0 0v1h13V0H0Z"/>
+                </svg>
+              </button>
+              <input class="auth-form-field field" id="amount" type="text" value="1">
+              <button class="reference-quantity-one-tw" type="button">
+                <svg class="plus-one" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/>
+                </svg>
+              </button>
             </div>
+            <button class="modal-find button" type="submit">
+              <span class="find-button">Найти</span>
+            </button>
           </form>
-          <button class="modal-find button" type="submit">
-            <span class="find-button">Найти</span>
-          </button>
         </div>
       </section>
     </div>
