@@ -2368,6 +2368,7 @@ input[type="number"]::-webkit-input-placeholder {
   right: 100px;
   left: 470px;
   top: 365px;
+  border: none;
 }
 
 .icons-info:hover {
@@ -2432,6 +2433,7 @@ input[type="number"]::-webkit-input-placeholder {
   padding: 10px;
   fill: #000000;
   opacity: 0.3;
+  border: none;
 }
 
 .plus {
@@ -2441,6 +2443,7 @@ input[type="number"]::-webkit-input-placeholder {
   cursor: pointer;
   fill: #000000;
   opacity: 0.3;
+  border: none;
 }
 
 .minus-one {
@@ -2460,6 +2463,17 @@ input[type="number"]::-webkit-input-placeholder {
   cursor: pointer;
   fill: #000000;
   opacity: 0.3;
+}
+
+.reference-quantity {
+  position: absolute;
+  border: none;
+  width: 20px;
+  height: 20px;
+  top: 360px;
+  right: 450px;
+  cursor: pointer;
+  background-color: inherit;
 }
 
 .reference-quantity:hover .minus {
@@ -2569,3 +2583,5 @@ input {
 .modal-close {
   display: none;
 }
+
+
