@@ -198,8 +198,8 @@ body {
   box-sizing: border-box;
   list-style-type: none;
   margin: 0;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   padding-left: 209px;
   padding-right: 72px;
 }
@@ -554,6 +554,7 @@ body {
   padding: 10px 30px;
   border: none;
   border-radius: 4px;
+  min-width: 160px;
 }
 
 .to-apply:hover {
@@ -961,7 +962,7 @@ body {
   text-align: center;
   color: #333333;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .benefits-2 {
@@ -991,7 +992,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  padding-top: 28px;
+  padding-top: 33px;
   padding-bottom: 40px;
 }
 
@@ -1038,7 +1039,7 @@ body {
 
 .breadcrumbs {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   margin-top: 0;
   padding: 0;
   cursor: pointer;
@@ -1081,7 +1082,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  padding-top: 65px;
+  padding-top: 69px;
 }
 
 .product-list {
@@ -1536,9 +1537,9 @@ body {
 .catalog-filter-input {
   margin: 0;
   padding: 0;
-  padding-top: 10px;
-  padding-bottom: 12px;
-  padding-left: 10px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 17px;
   padding-right: 40px;
   width: 145px;
   font: inherit;
@@ -1560,9 +1561,9 @@ input[type="number"]::-webkit-input-placeholder {
 .catalog-filter-input-1 {
   margin: 0;
   padding: 0;
-  padding-top: 10px;
-  padding-bottom: 12px;
-  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 12px;
   padding-right: 40px;
   width: 145px;
   font: inherit;
@@ -1775,7 +1776,6 @@ input[type="number"]::-webkit-input-placeholder {
   border-radius: 50%;
 }
 
-
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   top: 5px;
@@ -1885,7 +1885,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .inner-header {
-  padding-left: 71px;
+  padding-left: 68px;
   padding-right: 601px;
 }
 
@@ -1910,7 +1910,7 @@ input[type="number"]::-webkit-input-placeholder {
   border: 2px solid #e6e6e6;
   box-sizing: border-box;
   border-radius: 4px;
-  background-position: 130px;
+  background-position: 125px;
   background-image: url("../img/svg/birdie.svg");
   background-repeat: no-repeat;
 }
@@ -1938,7 +1938,7 @@ input[type="number"]::-webkit-input-placeholder {
 .select-control-1:focus {
   box-shadow: 0 0 0 2px #83b3d3;
   outline: none;
-  border: none;
+  border-color: transparent;
   border-radius: 4px;
 }
 
@@ -1959,7 +1959,7 @@ input[type="number"]::-webkit-input-placeholder {
 .select-control:focus {
   box-shadow: 0 0 0 2px #83b3d3;
   outline: none;
-  border: none;
+  border-color: transparent;
   border-radius: 4px;
 }
 
@@ -2065,7 +2065,7 @@ input[type="number"]::-webkit-input-placeholder {
 .modal {
   position: relative;
   margin: auto;
-  padding-top: 75px;
+  padding-top: 62px;
   padding-bottom: 70px;
   padding-left: 70px;
   padding-right: 70px;
@@ -2083,7 +2083,7 @@ input[type="number"]::-webkit-input-placeholder {
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 60px;
+  top: 62px;
   right: 70px;
   width: 53px;
   height: 53px;
@@ -2116,7 +2116,7 @@ input[type="number"]::-webkit-input-placeholder {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
 }
 
 
@@ -2163,8 +2163,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .date-of-departure {
-  margin-top: 15px;
-  margin-left: 3px;
+  margin-top: 20px;
 }
 
 .date-of-departure .arrival-date {
@@ -2250,6 +2249,7 @@ input[type="number"]::-webkit-input-placeholder {
   margin-right: 60px;
   text-align: center;
   background-color: #f2f2f2;
+  padding-top: 17px;
 }
 
 .popover-img-link {
@@ -2339,7 +2339,7 @@ input[type="number"]::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 40px;
   color: #ff5757;
-  margin-left: 160px;
+  margin-left: 155px;
   margin-right: 70px;
 }
 
@@ -2381,8 +2381,8 @@ input[type="number"]::-webkit-input-placeholder {
   background: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  left: 370px;
-  top: 410px;
+  left: 355px;
+  top: 400px;
   padding: 20px;
 }
 
@@ -2403,8 +2403,8 @@ input[type="number"]::-webkit-input-placeholder {
   height: 19px;
   content: "";
   background-color: #333333;
-  left: 40%;
   bottom: 91%;
+  left: 118px;
   transform: rotate(45deg);
 }
 
@@ -2425,7 +2425,7 @@ input[type="number"]::-webkit-input-placeholder {
 
 .minus {
   position: absolute;
-  top: 380px;
+  top: 365px;
   right: 450px;
   cursor: pointer;
   padding: 10px;
@@ -2435,7 +2435,7 @@ input[type="number"]::-webkit-input-placeholder {
 
 .plus {
   position: absolute;
-  top: 380px;
+  top: 365px;
   right: 370px;
   cursor: pointer;
   fill: #000000;
@@ -2444,7 +2444,7 @@ input[type="number"]::-webkit-input-placeholder {
 
 .minus-one {
   position: absolute;
-  top: 380px;
+  top: 365px;
   right: 160px;
   cursor: pointer;
   padding: 10px;
@@ -2454,7 +2454,7 @@ input[type="number"]::-webkit-input-placeholder {
 
 .plus-one {
   position: absolute;
-  top: 380px;
+  top: 365px;
   right: 90px;
   cursor: pointer;
   fill: #000000;
@@ -2545,7 +2545,7 @@ input[type="number"]::-webkit-input-placeholder {
 
 .cross {
   fill: #000000;
-  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .icon-info {
@@ -2558,6 +2558,10 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 select {
+  font-family: "PT Sans";
+}
+
+input {
   font-family: "PT Sans";
 }
 
