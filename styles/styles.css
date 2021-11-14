@@ -2367,7 +2367,7 @@ input[type="number"]::-webkit-input-placeholder {
   border-radius: 50%;
   right: 100px;
   left: 470px;
-  top: 365px;
+  top: 360px;
   border: none;
 }
 
@@ -2579,6 +2579,7 @@ input {
   font-family: "PT Sans";
 }
 
+.modal-container,
 .modal-close {
   display: none;
 }
