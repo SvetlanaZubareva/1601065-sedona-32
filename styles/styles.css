@@ -1331,6 +1331,7 @@ body {
   background-color: #e6e6e6;
   box-shadow: 0 0 0 3px #83b3d3;
   outline: none;
+  border-color: inherit;
 }
 
 .entry-field:disabled:hover {
@@ -1342,13 +1343,7 @@ body {
   outline: none;
 }
 
-.entry-field-1:active {
-  color: rgba(0, 0, 0, 1);
-  background-color: #ffffff;
-  border: 2px solid #000000;
-  border-radius: 10px 0 0 10px;
-  outline: none;
-}
+
 
 .entry-field-1:hover {
   background-color: #e6e6e6;
@@ -1358,6 +1353,7 @@ body {
   background-color: #e6e6e6;
   box-shadow: 0 0 0 3px #83b3d3;
   outline: none;
+  border-color: inherit;
 }
 
 .entry-field-1:disabled {
@@ -1369,12 +1365,28 @@ body {
   outline: none;
 }
 
+.entry-field-1:active {
+  color: rgba(0, 0, 0, 1);
+  background-color: #ffffff;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  border-color: #000000;
+}
+
 .entry-field:active {
   color: rgba(0, 0, 0, 1);
   background-color: #ffffff;
-  border: 2px solid #000000;
   border-radius: 10px 0 0 10px;
   outline: none;
+  border-color: #000000;
+}
+
+.entry-field:invalid {
+  box-shadow: none;
+}
+
+.entry-field-1:invalid {
+  box-shadow: none;
 }
 
 .error {
@@ -1526,7 +1538,7 @@ body {
   position: absolute;
   right: 5px;
   bottom: 0;
-  top: 52px;
+  top: 54px;
   left: 5px;
   height: 2px;
   background-color: #756257;
@@ -2079,6 +2091,9 @@ input[type="number"]::-webkit-input-placeholder {
 
 
 .modal-close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   padding: 0;
   top: 62px;
@@ -2424,43 +2439,47 @@ input[type="number"]::-webkit-input-placeholder {
 
 .minus {
   display: block;
-  top: 365px;
+  top: 345px;
   right: 450px;
   cursor: pointer;
-  fill: #000000;
+  color: #000000;
   opacity: 0.3;
   border: none;
+  font-size: 40px;
 }
 
 .plus {
   top: 365px;
   right: 370px;
   cursor: pointer;
-  fill: #000000;
+  color: #000000;
   opacity: 0.3;
   border: none;
+  font-size: 30px;
 }
 
 .minus-one {
-  top: 365px;
+  top: 345px;
   right: 160px;
   cursor: pointer;
-  fill: #000000;
+  color: #000000;
   opacity: 0.3;
+  font-size: 40px;
 }
 
 .plus-one {
   top: 365px;
   right: 90px;
   cursor: pointer;
-  fill: #000000;
+  color: #000000;
   opacity: 0.3;
+  font-size: 30px;
 }
 
 .reference-quantity {
   position: absolute;
   border: none;
-  top: 360px;
+  top: 335px;
   right: 450px;
   cursor: pointer;
   background-color: inherit;
@@ -2471,7 +2490,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .reference-quantity:hover .minus {
-  fill: #000000;
+  color: #000000;
 }
 
 .reference-quantity:focus-visible {
@@ -2482,13 +2501,13 @@ input[type="number"]::-webkit-input-placeholder {
 
 
 .minus:active {
-  fill: #000000;
+  color: #000000;
   opacity: 0.2;
 }
 
 
 .reference-quantity-two:hover .minus-one {
-  fill: #000000;
+  color: #000000;
 }
 
 .reference-quantity-two:focus-visible {
@@ -2498,7 +2517,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .minus-one:active {
-  fill: #000000;
+  color: #000000;
   opacity: 0.2;
 }
 
@@ -2514,13 +2533,13 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .plus:active {
-  fill: #000000;
+  color: #000000;
   opacity: 0.2;
 }
 
 
 .reference-quantity-one-tw:hover .plus-one {
-  fill: #000000;
+  color: #000000;
 }
 
 .reference-quantity-one-tw:focus-visible {
@@ -2530,7 +2549,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .plus-one:active {
-  fill: #000000;
+  color: #000000;
   opacity: 0.2;
 }
 
@@ -2556,7 +2575,6 @@ input[type="number"]::-webkit-input-placeholder {
 
 .cross {
   fill: #000000;
-  margin-bottom: 5px;
 }
 
 .icon-info {
@@ -2585,7 +2603,7 @@ input {
   display: block;
   position: absolute;
   border: none;
-  top: 360px;
+  top: 350px;
   right: 370px;
   padding: 5px;
   background-color: inherit;
@@ -2596,7 +2614,7 @@ input {
   border: none;
   display: block;
   padding: 5px;
-  top: 355px;
+  top: 340px;
   right: 160px;
   background-color: inherit;
 }
@@ -2606,7 +2624,7 @@ input {
   border: none;
   display: block;
   padding: 5px;
-  top: 360px;
+  top: 350px;
   right: 90px;
   background-color: inherit;
 }
