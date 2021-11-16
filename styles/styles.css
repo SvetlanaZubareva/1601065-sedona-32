@@ -2103,7 +2103,7 @@ input[type="number"]::-webkit-input-placeholder {
   justify-content: center;
   position: absolute;
   padding: 0;
-  top: 62px;
+  top: 55px;
   right: 70px;
   width: 53px;
   height: 53px;
@@ -2215,9 +2215,6 @@ input[type="number"]::-webkit-input-placeholder {
   height: 50px;
   padding: 20px;
   box-sizing: border-box;
-  background-image: url("../img/svg/calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 390px;
 }
 
 .auth-form-field:hover {
@@ -2269,7 +2266,7 @@ input[type="number"]::-webkit-input-placeholder {
   margin-right: 60px;
   text-align: center;
   background-color: #f2f2f2;
-  padding-top: 17px;
+  padding-top: 10px;
 }
 
 .popover-img-link {
@@ -2432,7 +2429,7 @@ input[type="number"]::-webkit-input-placeholder {
 .calendar {
   position: absolute;
   right: 90px;
-  top: 200px;
+  top: 175px;
   cursor: pointer;
 }
 
@@ -2440,7 +2437,7 @@ input[type="number"]::-webkit-input-placeholder {
 .calendar-one {
   position: absolute;
   right: 90px;
-  top: 310px;
+  top: 265px;
   cursor: pointer;
 }
 
@@ -2486,7 +2483,7 @@ input[type="number"]::-webkit-input-placeholder {
 .reference-quantity {
   position: absolute;
   border: none;
-  top: 335px;
+  top: 330px;
   right: 450px;
   cursor: pointer;
   background-color: inherit;
@@ -2610,7 +2607,7 @@ input {
   display: block;
   position: absolute;
   border: none;
-  top: 350px;
+  top: 340px;
   right: 370px;
   padding: 5px;
   background-color: inherit;
@@ -2621,7 +2618,7 @@ input {
   border: none;
   display: block;
   padding: 5px;
-  top: 340px;
+  top: 335px;
   right: 160px;
   background-color: inherit;
 }
@@ -2631,7 +2628,7 @@ input {
   border: none;
   display: block;
   padding: 5px;
-  top: 350px;
-  right: 90px;
+  top: 345px;
+  right: 80px;
   background-color: inherit;
 }
