@@ -1537,7 +1537,7 @@ body {
   position: absolute;
   right: 5px;
   bottom: 0;
-  top: 54px;
+  top: 52px;
   left: 5px;
   height: 2px;
   background-color: #756257;
@@ -2210,7 +2210,7 @@ input[type="number"]::-webkit-input-placeholder {
   color: #000000;
   background: #f2f2f2;
   border-radius: 4px;
-  border: none;
+  border: transparent;
   width: 420px;
   height: 50px;
   padding: 20px;
@@ -2230,10 +2230,11 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 .auth-form-field:active {
+  color: rgba(0, 0, 0, 1);
   background: #ffffff;
-  border: 2px solid #000000;
   border-radius: 4px;
   outline: none;
+  border-color: #000000;
 }
 
 .auth-form-field:disabled:hover {
@@ -2243,6 +2244,10 @@ input[type="number"]::-webkit-input-placeholder {
   cursor: default;
   box-shadow: 0 0 0 2px #ff5757;
   outline: none;
+}
+
+.auth-form-field:invalid {
+  box-shadow: none;
 }
 
 .find-button {
@@ -2449,7 +2454,8 @@ input[type="number"]::-webkit-input-placeholder {
   color: #000000;
   opacity: 0.3;
   border: none;
-  font-size: 40px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .plus {
@@ -2460,6 +2466,7 @@ input[type="number"]::-webkit-input-placeholder {
   opacity: 0.3;
   border: none;
   font-size: 30px;
+  line-height: 30px;
 }
 
 .minus-one {
@@ -2468,7 +2475,8 @@ input[type="number"]::-webkit-input-placeholder {
   cursor: pointer;
   color: #000000;
   opacity: 0.3;
-  font-size: 40px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .plus-one {
@@ -2478,19 +2486,19 @@ input[type="number"]::-webkit-input-placeholder {
   color: #000000;
   opacity: 0.3;
   font-size: 30px;
+  line-height: 30px;
 }
 
 .reference-quantity {
   position: absolute;
   border: none;
-  top: 330px;
+  top: 355px;
   right: 450px;
   cursor: pointer;
   background-color: inherit;
   display: block;
-  padding: 5px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .reference-quantity:hover .minus {
@@ -2607,9 +2615,8 @@ input {
   display: block;
   position: absolute;
   border: none;
-  top: 345px;
+  top: 355px;
   right: 370px;
-  padding: 5px;
   background-color: inherit;
 }
 
@@ -2617,9 +2624,10 @@ input {
   position: absolute;
   border: none;
   display: block;
-  padding: 5px;
-  top: 335px;
+  top: 355px;
   right: 160px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: inherit;
 }
 
@@ -2627,8 +2635,7 @@ input {
   position: absolute;
   border: none;
   display: block;
-  padding: 5px;
-  top: 345px;
+  top: 355px;
   right: 80px;
   background-color: inherit;
 }
