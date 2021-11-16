@@ -105,7 +105,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  padding-top: 45px;
+  padding-top: 42px;
   padding-left: 71px;
   padding-right: 72px;
   padding-bottom: 30px;
@@ -792,7 +792,7 @@ body {
 
 .rating {
   text-align: center;
-  margin-top: 3px;
+  margin-top: 7px;
   margin-left: auto;
 }
 
@@ -1473,7 +1473,6 @@ body {
 
 .sorting-type {
   display: flex;
-  border: 2px solid #e6e6e6;
   border-radius: 4px;
 }
 
@@ -1527,7 +1526,7 @@ body {
   position: absolute;
   right: 5px;
   bottom: 0;
-  top: 50px;
+  top: 52px;
   left: 5px;
   height: 2px;
   background-color: #756257;
@@ -1925,12 +1924,12 @@ input[type="number"]::-webkit-input-placeholder {
   height: 48px;
   padding-left: 15px;
   padding-right: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   appearance: none;
   border: 2px solid #e6e6e6;
   box-sizing: border-box;
   border-radius: 4px;
-  background-position: 250px 12px;
+  background-position: 250px;
   background-image: url("../img/svg/birdie.svg");
   background-repeat: no-repeat;
 }
@@ -1946,8 +1945,6 @@ input[type="number"]::-webkit-input-placeholder {
 .select-control-1:focus {
   box-shadow: 0 0 0 2px #83b3d3;
   outline: none;
-  border: none;
-  border-radius: 4px;
 }
 
 .select-control-1:active {
@@ -2473,7 +2470,7 @@ input[type="number"]::-webkit-input-placeholder {
   padding-top: 10px;
 }
 
-.minus:hover {
+.reference-quantity:hover .minus {
   fill: #000000;
 }
 
@@ -2490,7 +2487,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 
-.reference-quantity:hover .minus-one {
+.reference-quantity-two:hover .minus-one {
   fill: #000000;
 }
 
@@ -2505,7 +2502,7 @@ input[type="number"]::-webkit-input-placeholder {
   opacity: 0.2;
 }
 
-.reference-quantity:hover .plus {
+.reference-quantity-one:hover .plus {
   fill: #000000;
 }
 
@@ -2522,7 +2519,7 @@ input[type="number"]::-webkit-input-placeholder {
 }
 
 
-.reference-quantity:hover .plus-one {
+.reference-quantity-one-tw:hover .plus-one {
   fill: #000000;
 }
 
