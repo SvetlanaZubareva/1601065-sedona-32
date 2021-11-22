@@ -51,7 +51,7 @@ body {
 
 .welcome {
   box-sizing: border-box;
-  background-image: url("../img/svg/Vector.svg"), url("../img/index-background.jpg");
+  background-image: url("../img/svg/decorative-background.svg"), url("../img/index-background.jpg");
   color: #ffffffff;
   background-repeat: no-repeat, no-repeat;
   background-color: #83b3d3;
